@@ -1,14 +1,13 @@
 body {
-  background-color: #1C1A19;
+  background-color: #1c1a1c;
   margin:0;
 }
 
 #toolbar {
-  background-color: #3E3C3C;
+  background-color: #3e3c3c;
   position: absolute;
-  display:flex;
+  display: flex;
   width: 100%;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 1.4em;
@@ -20,6 +19,7 @@ body {
   color:white;
   align-self: center;
   padding: 0 5%;
+  font-family:"Roboto";
 }
 
 .menu {
@@ -27,7 +27,7 @@ body {
 }
 
 .dropdown-button {
-  background-color: #3E3C3C;
+  background-color: #3e3c3c;
   color: white;
   border: none;
   padding: 0 5vh;
@@ -35,7 +35,7 @@ body {
 }
 
 .dropdown-button:hover {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
 }
 
 .dropdown-menu {
@@ -49,16 +49,16 @@ body {
   height: 96%;
   border: none;
   padding: 0, 10vh;
-  background-color: #3E3C3C;
+  background-color: #3e3c3c;
   color: white;
-  font-family: "Inter";
+  font-family: "Inter" ;
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
 }
 
 .dropdown-menu button:hover {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
 }
 
 @media (min-width: 375px) {
