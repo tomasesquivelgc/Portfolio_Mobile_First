@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: #1C1A19;
   margin:0;
 }
 
@@ -23,13 +23,9 @@ body {
 }
 
 @media (min-width: 375px) {
-  body {
-    background-color: red;
-  }
+  
 }
 
 @media (min-width: 768px) {
-  body {
-    background-color:blue;
-  }
+  
 }
