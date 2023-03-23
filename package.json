@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio_Mobile_First",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasesquivelgc/Portfolio_Mobile_First.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasesquivelgc/Portfolio_Mobile_First/issues"
+  },
+  "homepage": "https://github.com/tomasesquivelgc/Portfolio_Mobile_First#readme",
+  "devDependencies": {
+    "hint": "^7.1.5"
+  }
+}
