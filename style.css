@@ -19,7 +19,7 @@ body {
   color: white;
   align-self: center;
   padding: 0 5%;
-  font-family: Arial, Helvetica, sans-serif "Roboto";
+  font-family: 'Roboto', sans-serif;
 }
 
 .menu {
@@ -51,7 +51,7 @@ body {
   padding: 0, 10vh;
   background-color: #3e3c3c;
   color: white;
-  font-family: Arial, Helvetica, sans-serif "Inter";
+  font-family: "Inter";
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
@@ -71,7 +71,8 @@ body {
   .dropdown-button {
     display: none;
   }
-.dropdown-menu {
+
+  .dropdown-menu {
     display: inline-block;
   }
 }
