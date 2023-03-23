@@ -26,10 +26,21 @@ body {
   display: flex;
 }
 
+.dropdown-menu {
+  display: flex;
+}
+
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
   }
+}
+
+.dropdown-button {
+  background-color: #3E3C3C;
+  color: white;
+  border: none;
+  padding: 0 5vh;
 }
 
 @media (min-width: 768px) {
