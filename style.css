@@ -135,11 +135,10 @@ body {
 }
 
   .social-media{
-    background-color: #7c277c;
     flex-direction: column;
     height: 30vh;
     width: 10vh;
-    position: relative; right: 10%; bottom: 10vh;
+    position: relative; right: 14vh; bottom: 50vh;
 }
 
 }
