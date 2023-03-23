@@ -13,10 +13,11 @@ body {
   font-weight: 700;
   font-size: 1.2em;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
   color:white;
   align-self: center;
+  padding: 0 5%;
 }
