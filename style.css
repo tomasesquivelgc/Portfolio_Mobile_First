@@ -21,3 +21,15 @@ body {
   align-self: center;
   padding: 0 5%;
 }
+
+@media (min-width: 375px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color:blue;
+  }
+}
