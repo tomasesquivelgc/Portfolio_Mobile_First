@@ -22,10 +22,21 @@ body {
   padding: 0 5%;
 }
 
+.menu {
+  display: flex;
+}
+
 @media (min-width: 375px) {
-  
+  .dropdown-menu {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
-  
+  .dropdown-button {
+    display: none;
+  }
+  .dropdown-menu {
+    display: inline-block;
+  }
 }
