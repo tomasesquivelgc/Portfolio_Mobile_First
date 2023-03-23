@@ -1,6 +1,6 @@
 body {
   background-color: #1c1a1c;
-  margin:0;
+  margin: 0;
 }
 
 #toolbar {
@@ -16,10 +16,10 @@ body {
 }
 
 .logo {
-  color:white;
+  color: white;
   align-self: center;
   padding: 0 5%;
-  font-family:"Roboto";
+  font-family: Arial, Helvetica, sans-serif "Roboto";
 }
 
 .menu {
@@ -51,7 +51,7 @@ body {
   padding: 0, 10vh;
   background-color: #3e3c3c;
   color: white;
-  font-family: "Inter" ;
+  font-family: Arial, Helvetica, sans-serif "Inter";
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
@@ -71,7 +71,7 @@ body {
   .dropdown-button {
     display: none;
   }
-  .dropdown-menu {
+.dropdown-menu {
     display: inline-block;
   }
 }
