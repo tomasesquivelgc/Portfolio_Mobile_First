@@ -51,7 +51,7 @@ body {
   padding: 0, 10vh;
   background-color: #3e3c3c;
   color: white;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
