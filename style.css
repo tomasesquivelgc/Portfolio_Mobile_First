@@ -4,7 +4,7 @@ body {
 }
 
 #toolbar {
-  background-color: black;
+  background-color: #3E3C3C;
   position: absolute;
   display:flex;
   width: 100%;
