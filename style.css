@@ -1,3 +1,22 @@
 body {
   background-color: beige;
+  margin:0;
+}
+
+#toolbar {
+  background-color: black;
+  position: absolute;
+  display:flex;
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2em;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.logo {
+  color:white;
+  align-self: center;
 }
