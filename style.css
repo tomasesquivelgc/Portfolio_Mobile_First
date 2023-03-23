@@ -1,6 +1,8 @@
 body {
   background-color: #1c1a1c;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #toolbar {
@@ -61,9 +63,34 @@ body {
   background-color: #ff6b00;
 }
 
+.headline {
+  background-color: transparent;
+  max-width: 60vh;
+  height: 60vh;
+  position: relative; left: 10%; top: 20vh; right: 20%;
+}
+
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
+  }
+
+  .headline h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #ff6b00;
+  }
+  
+  .headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .headline p {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 }
 
@@ -75,4 +102,22 @@ body {
   .dropdown-menu {
     display: inline-block;
   }
+
+.headline h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.1em;
+    color: #ff6b00;
+}
+  
+.headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+  
+.headline p {
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 }
