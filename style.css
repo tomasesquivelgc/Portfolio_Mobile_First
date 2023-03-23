@@ -11,8 +11,8 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.2em;
-  height: 10vh;
+  font-size: 1.4em;
+  height: 15vh;
   justify-content: space-between;
 }
 
@@ -26,21 +26,45 @@ body {
   display: flex;
 }
 
+.dropdown-button {
+  background-color: #3E3C3C;
+  color: white;
+  border: none;
+  padding: 0 5vh;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  background-color: #FF6B00;
+}
+
 .dropdown-menu {
   display: flex;
+  align-items: stretch;
+  align-content: space-between;
+  padding-right: 8vh;
+}
+
+.dropdown-menu button {
+  height: 98%;
+  border: none;
+  padding: 0, 10vh;
+  background-color: #3E3C3C;
+  color: white;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #FF6B00;
 }
 
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
   }
-}
-
-.dropdown-button {
-  background-color: #3E3C3C;
-  color: white;
-  border: none;
-  padding: 0 5vh;
 }
 
 @media (min-width: 768px) {
