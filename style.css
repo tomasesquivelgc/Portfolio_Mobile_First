@@ -70,7 +70,10 @@ body {
   background-color: transparent;
   max-width: 60vh;
   height: 60vh;
-  position: relative;left: 10%;top: 20vh;right: 20%;
+  position: relative;
+  left: 10%;
+  top: 20vh;
+  right: 20%;
 }
 
 .social-media {
@@ -141,6 +144,8 @@ body {
     flex-direction: column;
     height: 30vh;
     width: 10vh;
-    position: relative;right: 14vh;bottom: 50vh;
+    position: relative;
+    right: 14vh;
+    bottom: 50vh;
   }
 }
