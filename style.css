@@ -80,6 +80,11 @@ body {
   display: flex;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 .social-media a {
   cursor: pointer;
 }
@@ -111,11 +116,6 @@ body {
     width: 30vh;
     justify-content: space-around;
   }
-}
-
-  ul {
-    list-style: none;
-    padding: 0;
 }
 
 @media (min-width: 768px) {
