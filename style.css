@@ -54,19 +54,14 @@ body {
 .dropdown-menu a {
   height: 96%;
   border: none;
-  padding: 0, 10vh;
+  padding: 5vh;
   background-color: #3e3c3c;
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
-  padding: 5vh;
   text-decoration: none;
-}
-
-.dropdown-menu a:hover {
-  background-color: #ff6b00;
 }
 
 .headline {
@@ -90,6 +85,10 @@ ul {
 
 .social-media a {
   cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ff6b00;
 }
 
 @media (min-width: 375px) {
