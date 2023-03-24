@@ -58,9 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
+# 📖 Portfolio: Mobile First <a name="about-project"></a>
 
 Portfolio: Mobile First is my first aproach at responsive web development.
 Inside this project you will find a portfolio template cloned from scratch using
