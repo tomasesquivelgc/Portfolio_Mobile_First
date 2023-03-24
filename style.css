@@ -70,7 +70,7 @@ body {
   background-color: transparent;
   max-width: 60vh;
   height: 60vh;
-  position: relative; left: 10%; top: 20vh; right: 20%;
+  position: relative;left: 10%;top: 20vh;right: 20%;
 }
 
 .social-media {
@@ -91,20 +91,20 @@ body {
     font-size: 3em;
     color: #ff6b00;
   }
-  
+
   .headline h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: white;
   }
-  
+
   .headline p {
     color: white;
     font-size: 1.2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  .social-media{
+  .social-media {
     width: 30vh;
     justify-content: space-around;
   }
@@ -123,24 +123,24 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.1em;
     color: #ff6b00;
-}
-  
+  }
+
   .headline h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: white;
-}
-  
+  }
+
   .headline p {
     color: white;
     font-size: 1.4em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+  }
 
-  .social-media{
+  .social-media {
     flex-direction: column;
     height: 30vh;
     width: 10vh;
-    position: relative; right: 14vh; bottom: 50vh;
-}
+    position: relative;right: 14vh;bottom: 50vh;
+  }
 }
