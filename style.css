@@ -1,6 +1,11 @@
 body {
   background-color: #1c1a1c;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./Normal_Button/backgroung-image.png");
+  background-repeat: no-repeat;
+  background-position: 100% 40vh;
 }
 
 #toolbar {
@@ -20,6 +25,7 @@ body {
   align-self: center;
   padding: 0 5%;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .menu {
@@ -45,25 +51,72 @@ body {
   padding-right: 8vh;
 }
 
-.dropdown-menu button {
+.dropdown-menu a {
   height: 96%;
   border: none;
-  padding: 0, 10vh;
+  padding: 5vh;
   background-color: #3e3c3c;
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.dropdown-menu button:hover {
+.headline {
+  background-color: transparent;
+  max-width: 60vh;
+  height: 60vh;
+  position: relative;
+  left: 10%;
+  top: 20vh;
+  right: 20%;
+}
+
+.social-media {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media a {
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover {
   background-color: #ff6b00;
 }
 
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
+  }
+
+  .headline h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #ff6b00;
+  }
+
+  .headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .headline p {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .social-media {
+    width: 30vh;
+    justify-content: space-around;
   }
 }
 
@@ -74,5 +127,32 @@ body {
 
   .dropdown-menu {
     display: inline-block;
+  }
+
+  .headline h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.1em;
+    color: #ff6b00;
+  }
+
+  .headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .headline p {
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .social-media {
+    flex-direction: column;
+    height: 30vh;
+    width: 10vh;
+    position: relative;
+    right: 14vh;
+    bottom: 50vh;
   }
 }
