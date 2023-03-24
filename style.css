@@ -5,7 +5,7 @@ body {
   flex-wrap: wrap;
   background-image: url("./Normal_Button/backgroung-image.png");
   background-repeat: no-repeat;
-  background-position: 100% 40vh;
+  background-position: 100% 30vh;
 }
 
 #toolbar {
@@ -66,7 +66,7 @@ body {
 
 .headline {
   background-color: transparent;
-  max-width: 60vh;
+  max-width: 50vh;
   height: 60vh;
   position: relative;
   left: 10%;
@@ -89,6 +89,34 @@ ul {
 
 .dropdown-menu a:hover {
   background-color: #ff6b00;
+}
+
+.work-section {
+  background-color: white;
+  height: 400vh;
+  width: 100%;
+  position: 50px 50px;
+  margin-top: 70vh;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: repeat(7,60vh);
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid1 {
+  padding-top: 20vh;
+  height: 30vh;
+  text-align: center;
+  font-size: 3em;
+}
+
+.grid2 {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
 }
 
 @media (min-width: 375px) {
