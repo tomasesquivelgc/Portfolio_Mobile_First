@@ -116,7 +116,23 @@ ul {
   background-color: aqua;
   justify-content: center;
   width: 100%;
-  height: 50vh;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+
+.grid2 h2 {
+  font-size: 1.5em;
+}
+
+.grid2 p {
+  font-size: 1.2em;
+}
+
+.yoga {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 375px) {
