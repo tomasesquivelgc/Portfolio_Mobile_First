@@ -25,6 +25,7 @@ body {
   align-self: center;
   padding: 0 5%;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .menu {
@@ -50,7 +51,7 @@ body {
   padding-right: 8vh;
 }
 
-.dropdown-menu button {
+.dropdown-menu a {
   height: 96%;
   border: none;
   padding: 0, 10vh;
@@ -60,9 +61,11 @@ body {
   font-weight: 600;
   font-size: 1em;
   cursor: pointer;
+  padding: 5vh;
+  text-decoration: none;
 }
 
-.dropdown-menu button:hover {
+.dropdown-menu a:hover {
   background-color: #ff6b00;
 }
 
