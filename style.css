@@ -5,7 +5,7 @@ body {
   flex-wrap: wrap;
   background-image: url("./Normal_Button/backgroung-image.png");
   background-repeat: no-repeat;
-  background-position: 100% 40vh;
+  background-position: 100% 60vh;
 }
 
 #toolbar {
@@ -66,7 +66,7 @@ body {
 
 .headline {
   background-color: transparent;
-  max-width: 60vh;
+  max-width: 50vh;
   height: 60vh;
   position: relative;
   left: 10%;
@@ -91,13 +91,233 @@ ul {
   background-color: #ff6b00;
 }
 
+.work-section {
+  background-color: white;
+  height: 630vh;
+  width: 100%;
+  position: 50px 50px;
+  margin-top: 70vh;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: repeat(7, 60vh);
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid1 {
+  height: 30vh;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Crete Round', serif;
+  margin-top: 20vh;
+  max-width: 70vh;
+}
+
+.grid2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  color: #091e42;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+.grid2 h2 {
+  font-size: 1.5em;
+  font-family: 'Crete Round', serif;
+}
+
+.grid2 p {
+  font-size: 1em;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  max-width: 98%;
+}
+
+.yoga {
+  width: 100%;
+  height: auto;
+}
+
+.grid2 ul {
+  display: flex;
+  justify-content: start;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+.grid3 p {
+  font-size: 1em;
+  font-weight: 400;
+  padding-left: 3vh;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  max-width: 80%;
+  margin-bottom: 1vh;
+}
+
+.about-me p {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.grid2 ul p {
+  border: #8993a4 solid 1px;
+  font-size: 1em;
+  padding: 2vh;
+  margin-right: 1vh;
+  color: #091e42;
+}
+
+.see-project1 {
+  background-color: #ff6b00;
+  width: 37.5%;
+  height: 9vh;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+}
+
+.grid3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  background-image: url("./Normal_Button/project_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 3vh;
+}
+
+.grid3 h2 {
+  padding-top: 9vh;
+  font-size: 2em;
+  padding-left: 3vh;
+  margin-bottom: 3vh;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.grid3 ul {
+  display: flex;
+  margin-left: 1vh;
+}
+
+.grid3 ul p {
+  font-size: 1em;
+  padding: 2vh;
+  background: rgba(255, 255, 255, 0.24);
+  margin-left: 2vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.see-project2 {
+  width: 100%;
+  background-color: #ff6b00;
+  border: none;
+  height: 9vh;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 85%;
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  background-image: url("./Normal_Button/about-me-back.png");
+  background-repeat: no-repeat;
+  background-position: 100% 21%;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  height: 115vh;
+  background-image: url("./Normal_Button/Vector-about.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.about-me h2 {
+  font-size: 4.5em;
+  text-align: center;
+  color: #ff6b00;
+  margin-bottom: 3vh;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.get-resume {
+  width: 28vh;
+  height: 9vh;
+  background-color: #ff6b00;
+  border: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 3vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.knowledge {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.knowledge li {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 3vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.knowledge h2 {
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  border: #f55800 solid 1px;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+button:active {
+  border: none;
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
   }
 
   .headline h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Crete Round', serif;
     font-size: 3em;
     color: #ff6b00;
   }
@@ -111,7 +331,7 @@ ul {
   .headline p {
     color: white;
     font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   .social-media {
