@@ -93,7 +93,7 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 650vh;
+  height: 680vh;
   width: 100%;
   position: 50px 50px;
   margin-top: 70vh;
@@ -171,19 +171,20 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  margin-bottom: 3vh;
 }
 
 .grid3 h2 {
   padding-top: 9vh;
   font-size: 2.5em;
-  padding-left: 2vh;
+  padding-left: 3vh;
   margin-bottom: 3vh;
 }
 
 .grid3 p {
   font-size: 1.5em;
   font-weight: 400;
-  padding-left: 2vh;
+  padding-left: 3vh;
   margin: 0%;
 }
 
@@ -196,7 +197,7 @@ ul {
   font-size: 1.3em;
   padding: 2vh;
   background: rgba(255, 255, 255, 0.24);
-  margin-left: 2vh;
+  margin-left: 3vh;
 }
 
 .see-project2 {
@@ -207,6 +208,48 @@ ul {
   color: white;
   font-size: 1.2em;
   font-weight: 700;
+}
+
+.about-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  height: 115vh;
+  background-image: url("./Normal_Button/about-me-back.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.about-me h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: 400;
+  color: #ff6b00;
+  margin-bottom: 3vh;
+}
+
+.about-me p {
+  color: white;
+  font-size: 1.45em;
+  font-weight: 400;
+}
+
+.get-resume {
+  width: 35vh;
+  height: 9vh;
+  background-color: #ff6b00;
+  border: none;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-top: 3vh;
 }
 
 @media (min-width: 375px) {
