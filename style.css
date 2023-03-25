@@ -93,7 +93,7 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 400vh;
+  height: 650vh;
   width: 100%;
   position: 50px 50px;
   margin-top: 70vh;
@@ -152,7 +152,7 @@ ul {
 .see-project1 {
   background-color: #ff6b00;
   width: 40%;
-  height: 8vh;
+  height: 9vh;
   border: none;
   color: white;
   font-weight: 700;
@@ -185,6 +185,28 @@ ul {
   font-weight: 400;
   padding-left: 2vh;
   margin: 0%;
+}
+
+.grid3 ul {
+  display: flex;
+}
+
+.grid3 ul p {
+  border: #8993a4 solid 1px;
+  font-size: 1.3em;
+  padding: 2vh;
+  background: rgba(255, 255, 255, 0.24);
+  margin-left: 2vh;
+}
+
+.see-project2 {
+  width: 100%;
+  background-color: #ff6b00;
+  border: none;
+  height: 9vh;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 @media (min-width: 375px) {
