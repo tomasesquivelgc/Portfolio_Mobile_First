@@ -98,7 +98,7 @@ ul {
   position: 50px 50px;
   margin-top: 70vh;
   display: grid;
-  grid-template-columns: 80%;
+  grid-template-columns: 90%;
   grid-template-rows: repeat(7, 60vh);
   gap: 20px;
   justify-content: center;
@@ -131,7 +131,7 @@ ul {
 }
 
 .grid2 p {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -144,17 +144,19 @@ ul {
 
 .grid2 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
 
 .grid3 p {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   padding-left: 3vh;
-  margin: 0%;
+  margin: 0;
   font-family: 'Inter', sans-serif;
+  max-width: 80%;
+  margin-bottom: 1vh;
 }
 
 .about-me p {
@@ -166,18 +168,20 @@ ul {
 
 .grid2 ul p {
   border: #8993a4 solid 1px;
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 2vh;
+  margin-right: 2vh;
+  color: #091e42;
 }
 
 .see-project1 {
   background-color: #ff6b00;
-  width: 40%;
+  width: 37.5%;
   height: 9vh;
   border: none;
   color: white;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Inter', sans-serif;
 }
 
@@ -198,22 +202,23 @@ ul {
 
 .grid3 h2 {
   padding-top: 9vh;
-  font-size: 2.5em;
+  font-size: 2em;
   padding-left: 3vh;
   margin-bottom: 3vh;
   font-family: 'Crete Round', serif;
+  font-weight: 400;
 }
 
 .grid3 ul {
   display: flex;
+  margin-left: 1vh;
 }
 
 .grid3 ul p {
-  border: #8993a4 solid 1px;
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 2vh;
   background: rgba(255, 255, 255, 0.24);
-  margin-left: 3vh;
+  margin-left: 2vh;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
@@ -287,6 +292,20 @@ ul {
 .knowledge h2 {
   font-weight: 700;
   font-family: 'Inter', sans-serif;
+}
+
+
+button:hover {
+  cursor: pointer;
+  border: #f55800 solid 1px;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+button:active {
+  border: none;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 @media (min-width: 375px) {
