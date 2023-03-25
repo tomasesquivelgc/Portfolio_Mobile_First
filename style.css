@@ -161,7 +161,7 @@ ul {
 
 .about-me p {
   color: white;
-  font-size: 1.45em;
+  font-size: 1em;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
 }
@@ -237,7 +237,7 @@ ul {
 .about-section {
   width: 100%;
   display: grid;
-  grid-template-columns: 80%;
+  grid-template-columns: 85%;
   grid-template-rows: repeat(2, auto);
   justify-content: center;
   background-image: url("./Normal_Button/about-me-back.png");
@@ -255,20 +255,21 @@ ul {
 }
 
 .about-me h2 {
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
   color: #ff6b00;
   margin-bottom: 3vh;
   font-family: 'Crete Round', serif;
+  font-weight: 400;
 }
 
 .get-resume {
-  width: 35vh;
+  width: 28vh;
   height: 9vh;
   background-color: #ff6b00;
   border: none;
   color: white;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 700;
   margin-top: 3vh;
   font-family: 'Inter', sans-serif;
