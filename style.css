@@ -121,6 +121,7 @@ ul {
   flex-direction: column;
   text-align: left;
   color: #091e42;
+  margin-bottom: 5vh;
 }
 
 .grid2 h2 {
@@ -156,6 +157,34 @@ ul {
   color: white;
   font-weight: 700;
   font-size: 1.2em;
+}
+
+.grid3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  background-image: url("./Normal_Button/project_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.grid3 h2 {
+  padding-top: 9vh;
+  font-size: 2.5em;
+  padding-left: 2vh;
+  margin-bottom: 3vh;
+}
+
+.grid3 p {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-left: 2vh;
+  margin: 0%;
 }
 
 @media (min-width: 375px) {
