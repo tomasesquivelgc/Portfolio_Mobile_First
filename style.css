@@ -216,15 +216,18 @@ ul {
   grid-template-columns: 80%;
   grid-template-rows: repeat(2, auto);
   justify-content: center;
+  background-image: url("./Normal_Button/about-me-back.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   height: 115vh;
-  background-image: url("./Normal_Button/about-me-back.png");
+  background-image: url("./Normal_Button/Vector-about.png");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: bottom;
 }
 
 .about-me h1 {
