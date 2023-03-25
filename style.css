@@ -110,6 +110,7 @@ ul {
   text-align: center;
   font-size: 3em;
   margin-bottom: 0;
+  font-family: 'Crete Round', serif;
 }
 
 .grid2 {
@@ -126,11 +127,14 @@ ul {
 
 .grid2 h2 {
   font-size: 1.5em;
+  font-family: 'Crete Round', serif;
 }
 
 .grid2 p {
   font-size: 1.2em;
   margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .yoga {
@@ -141,6 +145,8 @@ ul {
 .grid2 ul {
   display: flex;
   justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .grid3 p {
@@ -148,12 +154,14 @@ ul {
   font-weight: 400;
   padding-left: 3vh;
   margin: 0%;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-me p {
   color: white;
   font-size: 1.45em;
   font-weight: 400;
+  font-family: 'Inter', sans-serif;
 }
 
 .grid2 ul p {
@@ -170,6 +178,7 @@ ul {
   color: white;
   font-weight: 700;
   font-size: 1.2em;
+  font-family: 'Inter', sans-serif;
 }
 
 .grid3 {
@@ -192,6 +201,7 @@ ul {
   font-size: 2.5em;
   padding-left: 3vh;
   margin-bottom: 3vh;
+  font-family: 'Crete Round', serif;
 }
 
 .grid3 ul {
@@ -204,6 +214,8 @@ ul {
   padding: 2vh;
   background: rgba(255, 255, 255, 0.24);
   margin-left: 3vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .see-project2 {
@@ -214,6 +226,7 @@ ul {
   color: white;
   font-size: 1.2em;
   font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-section {
@@ -236,12 +249,12 @@ ul {
   background-position: bottom;
 }
 
-.about-me h1 {
+.about-me h2 {
   font-size: 5em;
   text-align: center;
-  font-weight: 400;
   color: #ff6b00;
   margin-bottom: 3vh;
+  font-family: 'Crete Round', serif;
 }
 
 .get-resume {
@@ -253,6 +266,7 @@ ul {
   font-size: 1.3em;
   font-weight: 700;
   margin-top: 3vh;
+  font-family: 'Inter', sans-serif;
 }
 
 .knowledge {
@@ -263,14 +277,16 @@ ul {
   text-align: center;
 }
 
-.knowledge h2 {
-  font-weight: 700;
-}
-
 .knowledge li {
   font-size: 1.5em;
   font-weight: 400;
   padding: 3vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.knowledge h2 {
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 375px) {
@@ -279,7 +295,7 @@ ul {
   }
 
   .headline h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Crete Round', serif;
     font-size: 3em;
     color: #ff6b00;
   }
@@ -293,7 +309,7 @@ ul {
   .headline p {
     color: white;
     font-size: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   .social-media {
