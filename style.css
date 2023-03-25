@@ -255,6 +255,22 @@ ul {
   margin-top: 3vh;
 }
 
+.knowledge {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.language h3 {
+  background-image: url("./Normal_Button/language-rectangle.png");
+  background-repeat: no-repeat;
+  background-position: 25% 50%;
+  font-size: 2em;
+  font-weight: 700;
+}
+
 @media (min-width: 375px) {
   .dropdown-menu {
     display: none;
