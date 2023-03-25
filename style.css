@@ -109,17 +109,18 @@ ul {
   height: 30vh;
   text-align: center;
   font-size: 3em;
+  margin-bottom: 0;
 }
 
 .grid2 {
   display: flex;
-  background-color: aqua;
   justify-content: center;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
   flex-direction: column;
   text-align: left;
+  color: #091e42;
 }
 
 .grid2 h2 {
@@ -128,11 +129,33 @@ ul {
 
 .grid2 p {
   font-size: 1.2em;
+  margin: 0;
 }
 
 .yoga {
   width: 100%;
   height: auto;
+}
+
+.grid2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid2 ul p {
+  border: #8993a4 solid 1px;
+  font-size: 1.3em;
+  padding: 2vh;
+}
+
+.see-project1 {
+  background-color: #ff6b00;
+  width: 40%;
+  height: 8vh;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 @media (min-width: 375px) {
