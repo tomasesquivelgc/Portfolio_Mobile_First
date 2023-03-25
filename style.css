@@ -218,7 +218,7 @@ ul {
   justify-content: center;
   background-image: url("./Normal_Button/about-me-back.png");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 21%;
 }
 
 .about-me {
@@ -263,12 +263,14 @@ ul {
   text-align: center;
 }
 
-.language h3 {
-  background-image: url("./Normal_Button/language-rectangle.png");
-  background-repeat: no-repeat;
-  background-position: 25% 50%;
-  font-size: 2em;
+.knowledge h2 {
   font-weight: 700;
+}
+
+.knowledge li {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 3vh;
 }
 
 @media (min-width: 375px) {
