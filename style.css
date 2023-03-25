@@ -5,7 +5,7 @@ body {
   flex-wrap: wrap;
   background-image: url("./Normal_Button/backgroung-image.png");
   background-repeat: no-repeat;
-  background-position: 100% 30vh;
+  background-position: 100% 60vh;
 }
 
 #toolbar {
@@ -93,7 +93,7 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 680vh;
+  height: 630vh;
   width: 100%;
   position: 50px 50px;
   margin-top: 70vh;
@@ -105,7 +105,7 @@ ul {
 }
 
 .grid1 {
-  padding-top: 20vh;
+  margin-top: 20vh;
   height: 30vh;
   text-align: center;
   font-size: 3em;
@@ -123,6 +123,7 @@ ul {
   text-align: left;
   color: #091e42;
   margin-bottom: 5vh;
+  margin-top: 10vh;
 }
 
 .grid2 h2 {
