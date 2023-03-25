@@ -99,7 +99,7 @@ ul {
   margin-top: 70vh;
   display: grid;
   grid-template-columns: 80%;
-  grid-template-rows: repeat(7,60vh);
+  grid-template-rows: repeat(7, 60vh);
   gap: 20px;
   justify-content: center;
 }
@@ -143,6 +143,19 @@ ul {
   justify-content: space-between;
 }
 
+.grid3 p {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-left: 3vh;
+  margin: 0%;
+}
+
+.about-me p {
+  color: white;
+  font-size: 1.45em;
+  font-weight: 400;
+}
+
 .grid2 ul p {
   border: #8993a4 solid 1px;
   font-size: 1.3em;
@@ -179,13 +192,6 @@ ul {
   font-size: 2.5em;
   padding-left: 3vh;
   margin-bottom: 3vh;
-}
-
-.grid3 p {
-  font-size: 1.5em;
-  font-weight: 400;
-  padding-left: 3vh;
-  margin: 0%;
 }
 
 .grid3 ul {
@@ -236,12 +242,6 @@ ul {
   font-weight: 400;
   color: #ff6b00;
   margin-bottom: 3vh;
-}
-
-.about-me p {
-  color: white;
-  font-size: 1.45em;
-  font-weight: 400;
 }
 
 .get-resume {
