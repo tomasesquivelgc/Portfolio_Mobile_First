@@ -105,12 +105,12 @@ ul {
 }
 
 .grid1 {
-  margin-top: 20vh;
   height: 30vh;
   text-align: center;
   font-size: 3em;
-  margin-bottom: 0;
   font-family: 'Crete Round', serif;
+  margin-top: 20vh;
+  max-width: 70vh;
 }
 
 .grid2 {
@@ -136,6 +136,7 @@ ul {
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  max-width: 98%;
 }
 
 .yoga {
@@ -148,6 +149,7 @@ ul {
   justify-content: start;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  max-width: 100%;
 }
 
 .grid3 p {
@@ -171,7 +173,7 @@ ul {
   border: #8993a4 solid 1px;
   font-size: 1em;
   padding: 2vh;
-  margin-right: 2vh;
+  margin-right: 1vh;
   color: #091e42;
 }
 
