@@ -319,6 +319,9 @@ button:active {
   background: white;
   padding: 0 24px;
   flex-direction: column;
+  background-image: url("./Normal_Button/Bottom-vector.png");
+  background-repeat: no-repeat;
+  background-position: 50% 99%;
 }
 
 .contact-section h2 {
@@ -333,13 +336,15 @@ button:active {
 
 .contact-form {
   margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form input {
   width: 100%;
   border: none;
   border-bottom: 0.5px solid lightgray;
-  padding-bottom: 2vh;
+  padding: 5vh 0 2vh 2vh;
   margin-bottom: 2vh;
 }
 
@@ -349,6 +354,7 @@ button:active {
   border: none;
   background: #fbf8f7;
   margin: 2vh 0;
+  padding: 2vh 2vh 0 2vh;
 }
 
 .submit-btn {
