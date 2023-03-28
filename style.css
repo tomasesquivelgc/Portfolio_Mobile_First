@@ -327,27 +327,68 @@ button:active {
   color: #172b4d;
   text-align: center;
   font-size: 2em;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  margin-bottom: 10vh;
 }
-form.contact-form input{
-    width: 100%;
-    border: none;
-    border-bottom: 0.5px solid lightgray;
-    margin-bottom: 12px;
+
+.contact-form {
+  margin-bottom: 10vh;
 }
-form.contact-form textarea{
-    width: 100%;
-    height: 114px;
-    border: none;
-    background: #FBF8F7;
+
+.contact-form input{
+  width: 100%;
+  border: none;
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
 }
-form.contact-form .submit-btn{
-      width: 107px;
-    height: 47px;
-    background: #FF6B00;
-    padding: 12px;
-    color: white;
-    font-size: 17px;
+
+.contact-form textarea{
+  width: 100%;
+  height: 20vh;
+  border: none;
+  background: #fbf8f7;
+  margin: 2vh 0;
+}
+
+.submit-btn{
+  width: 40%;
+  height: 9vh;
+  background: #FF6B00;
+  padding: 1vh;
+  color: white;
+  font-size: 1em;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-left: 30%;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  border: #f55800 solid 1px;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.submit-btn:active {
+  border: none;
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.contact-media {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-top: 0.5px solid lightgray;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  color: black;
+}
+
+.contact-media li {
+  padding: 2vh;
 }
 
 @media (min-width: 375px) {
@@ -414,9 +455,4 @@ form.contact-form .submit-btn{
     right: 14vh;
     bottom: 50vh;
   }
-}
-
-.submit-btn {
-  margin-bottom: 0;
-  margin-top: 12px;
 }
