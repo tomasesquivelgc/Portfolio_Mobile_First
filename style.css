@@ -415,3 +415,8 @@ form.contact-form .submit-btn{
     bottom: 50vh;
   }
 }
+
+.submit-btn {
+  margin-bottom: 0;
+  margin-top: 12px;
+}
