@@ -153,14 +153,15 @@
     <form class="contact-form">
       <ul>
         <li>
-          <input type="text" value="Name" />
+          <input type="text"  placeholder="Full name" maxlength="30" required/>
         </li>
         <li>
-          <input type="email" value="mail" />
+          <input type="email"  placeholder="Email address"  required/>
         </li>
         <li>
-          <textarea id="msg" name="user_message">Write me something...</textarea>
+          <textarea id="msg" name="user_message"maxlength="500" placeholder="Write me something..." required></textarea>
         </li>
+        <li><input type="submit" class="submit-btn" value="Get in touch"></li>
       </ul>
     </form>
   </section>
