@@ -280,6 +280,7 @@ ul {
 
 .knowledge {
   margin-top: 20vh;
+  margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
   color: white;
@@ -309,6 +310,23 @@ button:active {
   border: none;
   background-color: #e05304;
   color: #f4f1f0;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 85%;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  background: white;
+}
+
+.contact-section h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 20vh;
 }
 
 @media (min-width: 375px) {
