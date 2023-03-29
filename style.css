@@ -177,6 +177,7 @@ ul {
   font-family: 'Inter', sans-serif;
   max-width: 80%;
   margin-bottom: 1vh;
+  color: white;
 }
 
 .about-me p {
@@ -197,7 +198,7 @@ ul {
 .see-project1 {
   background-color: #ff6b00;
   width: 20vh;
-  height: 8vh;
+  height: 7vh;
   border: none;
   color: white;
   font-weight: 700;
@@ -241,6 +242,7 @@ ul {
   margin-left: 2vh;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  color: white;
 }
 
 .see-project2 {
@@ -477,11 +479,20 @@ button:active {
     padding: 1vh;
   }
 
+  .work {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    grid-gap: 1em 2em;
+  }
+
   .grid1 {
     flex-direction: row;
     justify-content: center;
     width: 100%;
     justify-self: center;
+    grid-column: 1 / 4;
   }
 
   .grid1 h2 {
@@ -496,17 +507,19 @@ button:active {
     margin-top: 10vh;
   }
 
-  .yoga {
-    width: 45%;
-  }
-
   .grid2 {
     flex-direction: row;
+    grid-column: 1 / 4;
+  }
+
+  .yoga {
+    width: 50%;
   }
 
   .grid2-content {
-    width: 40%;
+    width: 45%;
     padding-left: 4vh;
+    max-width: 70vh;
   }
 
   .grid2 h2 {
@@ -514,7 +527,9 @@ button:active {
   }
 
   .grid2 p {
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
+
+
 
 }
