@@ -45,23 +45,7 @@ body {
 }
 
 .dropdown-menu {
-  display: flex;
-  align-items: stretch;
-  align-content: space-between;
-  padding-right: 8vh;
-}
-
-.dropdown-menu a {
-  height: 96%;
-  border: none;
-  padding: 5vh;
-  background-color: #3e3c3c;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 1em;
-  cursor: pointer;
-  text-decoration: none;
+  display: none;
 }
 
 .headline {
@@ -74,8 +58,28 @@ body {
   right: 20%;
 }
 
+.headline h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 3em;
+  color: #ff6b00;
+}
+
+.headline h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.headline p {
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+}
+
 .social-media {
   display: flex;
+  width: 30vh;
+  justify-content: space-around;
 }
 
 ul {
@@ -397,42 +401,36 @@ button:active {
   padding: 2vh;
 }
 
-@media (min-width: 375px) {
-  .dropdown-menu {
-    display: none;
-  }
-
-  .headline h1 {
-    font-family: 'Crete Round', serif;
-    font-size: 3em;
-    color: #ff6b00;
-  }
-
-  .headline h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    color: white;
-  }
-
-  .headline p {
-    color: white;
-    font-size: 1.2em;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .social-media {
-    width: 30vh;
-    justify-content: space-around;
-  }
-}
-
 @media (min-width: 768px) {
+  body {
+    background-image: url("./Normal_Button/desktop-header-background.png");
+    background-position: 100% 0%;
+  }
+
   .dropdown-button {
     display: none;
   }
 
   .dropdown-menu {
-    display: inline-block;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding-right: 10vh;
+  }
+
+  .dropdown-menu a {
+    border: none;
+    background-color: #3e3c3c;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    align-self: stretch;
+    padding: 5vh;
   }
 
   .headline h1 {
