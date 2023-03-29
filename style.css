@@ -143,7 +143,7 @@ ul {
 }
 
 .grid2 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Crete Round', serif;
 }
 
@@ -169,6 +169,7 @@ ul {
 }
 
 .grid3 p {
+  color:#091e42;
   font-size: 1em;
   font-weight: 400;
   padding-left: 3vh;
@@ -188,15 +189,15 @@ ul {
 .grid2 ul p {
   border: #8993a4 solid 1px;
   font-size: 1em;
-  padding: 2vh;
-  margin-right: 1vh;
+  padding: 1.7vh;
+  margin-right: 2vh;
   color: #091e42;
 }
 
 .see-project1 {
   background-color: #ff6b00;
-  width: 37.5%;
-  height: 9vh;
+  width: 20vh;
+  height: 8vh;
   border: none;
   color: white;
   font-weight: 700;
@@ -478,6 +479,9 @@ button:active {
 
   .grid1 {
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    justify-self: center;
   }
 
   .grid1 h2 {
@@ -490,7 +494,27 @@ button:active {
     height: 1%;
     width: 110%;
     margin-top: 10vh;
+  }
 
+  .yoga {
+    width: 45%;
+  }
+
+  .grid2 {
+    flex-direction: row;
+  }
+
+  .grid2-content {
+    width: 40%;
+    padding-left: 4vh;
+  }
+
+  .grid2 h2 {
+    margin-top: 0;
+  }
+
+  .grid2 p {
+    font-size: 1.25em;
   }
 
 }
