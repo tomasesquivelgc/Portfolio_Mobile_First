@@ -51,8 +51,8 @@ body {
 
 .headline {
   background-color: transparent;
-  max-width: 50vh;
-  height: 60vh;
+  max-width: 54vh;
+  height: 50vh;
   position: relative;
   left: 10%;
   top: 20vh;
@@ -72,14 +72,14 @@ body {
   font-size: 1.5em;
   color: white;
   margin-top: 2vh;
-  margin-bottom: 0;
+  margin-bottom: 2vh;
 }
 
 .headline p {
   color: white;
   font-size: 1.2em;
   font-family: 'Poppins', sans-serif;
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
 .social-media {
@@ -415,7 +415,8 @@ button:active {
 @media (min-width: 768px) {
   body {
     background-image: url("./Normal_Button/desktop-header-background.png");
-    background-position: 100% 0%;
+    background-position: 100% 1%;
+    background-size: 40%;
   }
 
   .logo {
@@ -449,6 +450,11 @@ button:active {
     padding: 4vh;
   }
 
+  .headline {
+    max-width: 90vh;
+    height: 40vh;
+  }
+
   .headline p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -475,7 +481,7 @@ button:active {
 
   .recent-work-line {
     height: 1%;
-    width: 120%;
+    width: 110%;
     margin-top: 10vh;
 
   }
