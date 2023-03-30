@@ -128,7 +128,6 @@ ul {
   margin-top: 20vh;
   width: 100%;
   flex-direction: column;
-  margin-bottom: 0vh;
   font-weight: 400;
   align-content: center;
 }
@@ -173,7 +172,6 @@ ul {
 }
 
 .grid3 p {
-  color:#091e42;
   font-size: 1em;
   font-weight: 400;
   padding-left: 3%;
@@ -431,7 +429,7 @@ button:active {
   }
 
   .logo {
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
   }
 
@@ -541,7 +539,6 @@ button:active {
     font-size: 1.2em;
   }
 
- 
   .grid3 {
     height: 64vh;
 
@@ -595,7 +592,16 @@ button:active {
     background-position: center;
   }
 
-  .grid3:hover h2, .grid3:hover p, .grid3:hover ul{
+  .about-me h2 {
+    max-width: 70vh;
+    text-align: left;
+  }
+
+  .about-me p {
+    max-width: 70vh;
+  }
+  
+  .grid3:hover h2, .grid3:hover p, .grid3:hover ul {
     display: none;
   }
 
@@ -625,14 +631,6 @@ button:active {
     height: 80vh;
   }
 
-  .about-me h2 {
-    max-width: 70vh;
-    text-align: left;  
-  }
-
-  .about-me p {
-    max-width: 70vh;
-  }
 
   .knowledge {
     flex-direction: row;
@@ -655,7 +653,7 @@ button:active {
   .contact-form {
     width: 50%;
     margin-top: 81px;
-    margin-bottom:54px;
+    margin-bottom: 54px;
     padding-left: 10%;
   }
 
@@ -668,5 +666,4 @@ button:active {
   .contact-media {
     background-image: none;
   }
- 
 }
