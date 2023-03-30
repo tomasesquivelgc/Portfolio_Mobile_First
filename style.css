@@ -104,7 +104,7 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 630vh;
+  height: 550vh;
   width: 100%;
   position: 50px 50px;
   margin-top: 50vh;
@@ -529,6 +529,23 @@ button:active {
 
   .grid2 p {
     font-size: 1.2em;
+  }
+
+ 
+  .grid3 {
+    height: 64vh;
+  }
+
+  .see-project2 {
+    display: none;
+  }
+  
+  .grid3 h2 {
+    margin-top: 13%;
+  }
+
+  .grid3:hover {
+    background-image: url("./Normal_Button/desktop-grid3-background-A.png");
   }
 
 
