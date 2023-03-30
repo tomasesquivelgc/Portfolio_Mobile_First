@@ -606,6 +606,10 @@ button:active {
     text-align: left;
   }
 
+  .grid3:hover {
+    border: 1px solid black;
+  }
+
   .grid3:hover h2,
   .grid3:hover p,
   .grid3:hover ul {
