@@ -115,6 +115,10 @@ ul {
   justify-content: center;
 }
 
+.h2-show-desktop {
+  display: none;
+}
+
 .grid1 {
   display: flex;
   height: 30vh;
@@ -480,6 +484,10 @@ button:active {
     padding: 1vh;
   }
 
+  .work-section {
+    height: 300vh;
+  }
+
   .work {
     justify-content: center;
     display: grid;
@@ -549,8 +557,36 @@ button:active {
     margin-top: 13%;
   }
 
-  .grid3:hover {
+  #website-portfolio {
+    background-image: url("./Normal_Button/website-portfolio-unhovered.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #data-dashboard {
+    background-image: url("./Normal_Button/data-dashboar-unhovered.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #profesional-art-printing-data:hover {
     background-image: url("./Normal_Button/desktop-grid3-background-A.png");
+  }
+
+  #data-dashboard:hover {
+    background-image: url("./Normal_Button/data-dashboard-hovered.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #website-portfolio:hover {
+    background-image: url("./Normal_Button/web-portfolio-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .grid3:hover h2, .grid3:hover p, .grid3:hover ul{
@@ -562,17 +598,13 @@ button:active {
     margin-top: 55vh;
   }
 
-  .website-portfolio {
-    visibility: hidden;
-    position: relative;
+  .h2-hide-desktop {
+    display: none;
   }
 
-  .website-porfolio:after {
-    content: "Linuxhint is a UK based Organization. (New Text)";
-    position: absolute;
-    visibility: visible;
-    left: 0;
-    top: 0;
+  .h2-show-desktop {
+    display: block;
   }
+
 
 }
