@@ -606,5 +606,27 @@ button:active {
     display: block;
   }
 
+  .about-section {
+    margin-top: 20vh;
+    background-image: url("./Normal_Button/background-aboutme-desktop.png");
+    background-position: 100% 5%;
+    background-size: 35%;
+  }
+
+  .about-me {
+    width: 100%;
+    background-repeat: repeat-x;
+    height: 80vh;
+  }
+
+  .about-me h2 {
+    max-width: 70vh;
+    text-align: left;  
+  }
+
+  .about-me p {
+    max-width: 70vh;
+  }
+
 
 }
