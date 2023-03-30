@@ -539,6 +539,11 @@ button:active {
   .see-project2 {
     display: none;
   }
+
+  .grid3-content {
+    height: 100%;
+    width: 100%;
+  }
   
   .grid3 h2 {
     margin-top: 13%;
@@ -548,6 +553,26 @@ button:active {
     background-image: url("./Normal_Button/desktop-grid3-background-A.png");
   }
 
+  .grid3:hover h2, .grid3:hover p, .grid3:hover ul{
+    display: none;
+  }
 
+  .grid3:hover button {
+    display: block;
+    margin-top: 55vh;
+  }
+
+  .website-portfolio {
+    visibility: hidden;
+    position: relative;
+  }
+
+  .website-porfolio:after {
+    content: "Linuxhint is a UK based Organization. (New Text)";
+    position: absolute;
+    visibility: visible;
+    left: 0;
+    top: 0;
+  }
 
 }
