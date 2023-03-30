@@ -541,7 +541,6 @@ button:active {
 
   .grid3 {
     height: 64vh;
-
     justify-content: flex-end;
   }
 
@@ -601,8 +600,16 @@ button:active {
     max-width: 70vh;
   }
   
-  .grid3:hover h2, .grid3:hover p, .grid3:hover ul {
+  .grid3:hover h2, 
+  .grid3:hover p, 
+  .grid3:hover ul {
     display: none;
+  }
+
+  .contact-section h2 {
+    max-width: 29%;
+    align-self: left;
+    text-align: left;
   }
 
   .grid3:hover button {
@@ -631,7 +638,6 @@ button:active {
     height: 80vh;
   }
 
-
   .knowledge {
     flex-direction: row;
     justify-content: space-between;
@@ -644,11 +650,6 @@ button:active {
     padding-left: 10%;
   }
 
-  .contact-section h2 {
-    max-width: 29%;
-    align-self: left;
-    text-align: left;
-  }
 
   .contact-form {
     width: 50%;
