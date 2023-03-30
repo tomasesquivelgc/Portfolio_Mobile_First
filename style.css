@@ -343,9 +343,6 @@ button:active {
   background: white;
   padding: 0 24px;
   flex-direction: column;
-  background-image: url("./Normal_Button/Bottom-vector.png");
-  background-repeat: no-repeat;
-  background-position: 50% 99%;
 }
 
 .contact-section h2 {
@@ -373,7 +370,7 @@ button:active {
 }
 
 .contact-form textarea {
-  width: 100%;
+  width: 98%;
   height: 20vh;
   border: none;
   background: #fbf8f7;
@@ -408,6 +405,7 @@ button:active {
 }
 
 .contact-media {
+  margin: 0;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -415,6 +413,10 @@ button:active {
   padding-top: 4vh;
   padding-bottom: 4vh;
   color: black;
+  background-color: white;
+  background-image: url("./Normal_Button/Bottom-vector.png");
+  background-repeat: no-repeat;
+  background-position: 50% 99%;
 }
 
 .contact-media li {
@@ -542,19 +544,23 @@ button:active {
  
   .grid3 {
     height: 64vh;
+
+    justify-content: flex-end;
   }
 
   .see-project2 {
     display: none;
   }
-
-  .grid3-content {
-    height: 100%;
-    width: 100%;
-  }
   
   .grid3 h2 {
-    margin-top: 13%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  .grid3 ul {
+    margin: 0;
+    padding-left: 1.5vh;
+    margin-bottom: 1vh;
   }
 
   #website-portfolio {
@@ -636,6 +642,31 @@ button:active {
 
   .contact-section {
     flex-direction: row;
+    justify-content: start;
+    padding-left: 10%;
   }
 
+  .contact-section h2 {
+    max-width: 29%;
+    align-self: left;
+    text-align: left;
+  }
+
+  .contact-form {
+    width: 50%;
+    margin-top: 81px;
+    margin-bottom:54px;
+    padding-left: 10%;
+  }
+
+  .submit-btn {
+    margin: 0;
+    width: 20vh;
+    height: 7vh;
+  }
+
+  .contact-media {
+    background-image: none;
+  }
+ 
 }
