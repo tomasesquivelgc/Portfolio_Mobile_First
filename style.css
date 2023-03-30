@@ -547,12 +547,12 @@ button:active {
   .see-project2 {
     display: none;
   }
-  
+
   .grid3 h2 {
     padding-top: 0;
     margin-top: 0;
   }
-  
+
   .grid3 ul {
     margin: 0;
     padding-left: 1.5vh;
@@ -599,17 +599,17 @@ button:active {
   .about-me p {
     max-width: 70vh;
   }
-  
-  .grid3:hover h2, 
-  .grid3:hover p, 
-  .grid3:hover ul {
-    display: none;
-  }
 
   .contact-section h2 {
     max-width: 29%;
     align-self: left;
     text-align: left;
+  }
+
+  .grid3:hover h2,
+  .grid3:hover p,
+  .grid3:hover ul {
+    display: none;
   }
 
   .grid3:hover button {
@@ -649,7 +649,6 @@ button:active {
     justify-content: start;
     padding-left: 10%;
   }
-
 
   .contact-form {
     width: 50%;
