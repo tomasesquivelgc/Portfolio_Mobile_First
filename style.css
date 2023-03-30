@@ -628,5 +628,14 @@ button:active {
     max-width: 70vh;
   }
 
+  .knowledge {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .contact-section {
+    flex-direction: row;
+  }
 
 }
