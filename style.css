@@ -464,6 +464,25 @@ button:active {
     flex-direction: row;
     max-width: 77vh;
     height: 50vh;
+    animation-duration: 1s;
+    animation-name: bounce-in-right;
+  }
+
+  @keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(600px);
+   }
+   60% {
+      opacity: 1;
+      transform: translateX(-30px);
+   }
+   80% {
+      transform: translateX(10px);
+   }
+   100% {
+      transform: translateX(0);
+   }
   }
 
   .headline p {
@@ -564,6 +583,7 @@ button:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: 1s;
   }
 
   #data-dashboard {
