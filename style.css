@@ -206,6 +206,7 @@ ul {
   font-weight: 700;
   font-size: 1em;
   font-family: 'Inter', sans-serif;
+  transition: all  0.3s  ease;
 }
 
 .grid3 {
