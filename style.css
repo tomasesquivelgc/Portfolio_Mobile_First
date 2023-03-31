@@ -206,6 +206,7 @@ ul {
   font-weight: 700;
   font-size: 1em;
   font-family: 'Inter', sans-serif;
+  transition: transform 0.3s ease 0s;
 }
 
 .grid3 {
@@ -257,6 +258,7 @@ ul {
   font-size: 1.2em;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
+  transition: transform 0.3s ease 0s;
 }
 
 .about-section {
@@ -326,6 +328,7 @@ button:hover {
   border: #f55800 solid 1px;
   background-color: #fff5e1;
   color: #f55800;
+  transform: translateY(-10px);
 }
 
 button:active {
@@ -402,10 +405,6 @@ button:active {
   color: #f4f1f0;
 }
 
-footer {
-  width: 100%;
-}
-
 .contact-media {
   margin: 0;
   display: flex;
@@ -461,11 +460,6 @@ footer {
     text-decoration: none;
     align-self: stretch;
     padding: 4vh;
-    transition-property: background-color;
-    transition-duration: 0.7s;
-  }
-  .dropdown-menu a:hover{
-    background-color: #ff6b00;
   }
 
   .headline {
@@ -473,28 +467,6 @@ footer {
     flex-direction: row;
     max-width: 77vh;
     height: 50vh;
-    animation-duration: 1s;
-    animation-name: bounce-in-right;
-  }
-
-  @keyframes bounce-in-right {
-    0% {
-      opacity: 0;
-      transform: translateX(600px);
-    }
-
-    60% {
-      opacity: 1;
-      transform: translateX(-30px);
-    }
-
-    80% {
-      transform: translateX(10px);
-    }
-
-    100% {
-      transform: translateX(0);
-    }
   }
 
   .headline p {
@@ -513,10 +485,6 @@ footer {
 
   .social-media li {
     padding: 1vh;
-  }
-
-  .social-media img:hover {
-    width: 120%;
   }
 
   .work-section {
@@ -575,9 +543,8 @@ footer {
   }
 
   .grid3 {
-    height: 65vh;
+    height: 64vh;
     justify-content: flex-end;
-    transition: 0.5s;
   }
 
   .see-project2 {
@@ -587,7 +554,6 @@ footer {
   .grid3 h2 {
     padding-top: 0;
     margin-top: 0;
-    transition: 1s;
   }
 
   .grid3 ul {
@@ -706,9 +672,5 @@ footer {
 
   .contact-media {
     background-image: none;
-  }
-
-  .contact-media img:hover {
-    width: 120%;
   }
 }
