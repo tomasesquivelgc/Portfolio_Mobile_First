@@ -460,6 +460,11 @@ button:active {
     text-decoration: none;
     align-self: stretch;
     padding: 4vh;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+  }
+  .dropdown-menu a:hover{
+    background-color: #ff6b00;
   }
 
   .headline {
@@ -467,11 +472,40 @@ button:active {
     flex-direction: row;
     max-width: 77vh;
     height: 50vh;
+    animation-duration: 1s;
+    animation-name: bounce-in-right;
+  }
+
+  @keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(600px);
+    }
+
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+
+    80% {
+      transform: translateX(10px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
   }
 
   .headline p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+  }
+
+  .social-media img:hover {
+    width: 120%;
+    background-color: #e05304;
+    transition: 0.5s;
+    border-radius: 20%;
   }
 
   .social-media {
@@ -545,6 +579,7 @@ button:active {
   .grid3 {
     height: 64vh;
     justify-content: flex-end;
+    transition: 0.5s;
   }
 
   .see-project2 {
@@ -670,7 +705,15 @@ button:active {
     height: 7vh;
   }
 
+  footer {
+    width: 100%;
+  }
+
   .contact-media {
     background-image: none;
+  }
+
+  .contact-media img:hover {
+    width: 120%;
   }
 }
