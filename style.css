@@ -463,7 +463,7 @@ button:active {
     transition-property: background-color;
     transition-duration: 0.7s;
   }
-  
+
   .dropdown-menu a:hover {
     background-color: #ff6b00;
   }
