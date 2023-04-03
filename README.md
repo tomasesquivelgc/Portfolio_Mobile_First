@@ -1,32 +1,7 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <br/>
 
   <h3><b>Portfolio: Mobile First</b></h3>
@@ -87,13 +62,20 @@ The key features of this project are:
 - Use of flexbox to replicate a template
 - An adaptive layout that responds to screen width
 
+### Features implemented
+
+- Functioning mobile version with a responsive layout
+- Desktop version (min 768px) working complete with animations
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming soon...
+To see my Portfolio in action, simply head to
+
+> tomasesquivelgc.github.io/index
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +100,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-To run the project, open the inde.html file.
+To run the project, open the index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +122,9 @@ To run the project, open the inde.html file.
 
 Future features of this project include:
 
-- [ ] About, projects and contact section.
-- [ ] Buttons and links will work.
+- [✔] About, projects and contact section.
+- [✔] NavBar Buttons working as intended
+- [ ] Links to Social media
 - [ ] An overlay menu for mobile.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,7 +133,11 @@ Future features of this project include:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions on this by:
+ - William Ocoró (GitHub: willococa)
+ - Gardimy Charles (GitHub: Gardimy)
+
+And every code reviewer who took the time to help me improve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +157,6 @@ I would like to thank the whole Microverse team, the support team and code revie
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
