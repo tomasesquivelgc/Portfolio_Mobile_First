@@ -16,7 +16,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 1.4em;
-  height: 10vh;
+  height: 10%;
   justify-content: space-between;
 }
 
@@ -445,7 +445,6 @@ button:active {
     display: flex;
     align-items: center;
     align-content: space-between;
-    padding-right: 5vh;
   }
 
   .dropdown-menu a {
@@ -462,9 +461,9 @@ button:active {
   }
 
   .headline {
-    margin-left: 5vh;
+    margin-left: 2%;
     flex-direction: row;
-    max-width: 77vh;
+    max-width: 50%;
     height: 50vh;
   }
 
@@ -475,11 +474,11 @@ button:active {
 
   .social-media {
     flex-direction: column;
-    height: 90%;
-    width: 10vh;
+    height: 100%;
+    width: 10%;
     order: -1;
     justify-content: center;
-    padding-right: 4%;
+    padding-right: 10%;
   }
 
   .social-media li {
@@ -644,6 +643,7 @@ button:active {
   }
 
   .knowledge {
+    margin-top: 0%;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -664,7 +664,7 @@ button:active {
 
   .submit-btn {
     margin: 0;
-    width: 20vh;
+    width: 30%;
     height: 7vh;
   }
 
