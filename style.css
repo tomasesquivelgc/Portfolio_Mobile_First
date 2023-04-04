@@ -268,15 +268,17 @@ ul {
   background-image: url("./Normal_Button/about-me-back.png");
   background-repeat: no-repeat;
   background-position: 100% 21%;
+  height: 100%;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
-  height: 60%vh;
+  height: 160%;
   background-image: url("./Normal_Button/Vector-about.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  margin-bottom: 10%;
 }
 
 .about-me h2 {
@@ -301,7 +303,7 @@ ul {
 }
 
 .knowledge {
-  margin-top: 20vh;
+  margin-top: 70%;
   margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
