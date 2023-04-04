@@ -164,16 +164,19 @@
     <form class="contact-form" action="https://formspree.io/f/xwkjrkqw" method="post">
       <ul>
         <li>
-          <input type="text"  name="name" placeholder="Full name" maxlength="30" required/>
+          <label for="full-name"></label>
+          <input id="full-name" type="text"  name="name" placeholder="Full name" maxlength="30" required/>
         </li>
         <li>
-          <input type="email" name="email" placeholder="Email address"  required/>
+          <label for="email"></label>
+          <input id="email" type="email" name="email" placeholder="Email address"  required/>
         </li>
         <li>
           <textarea id="msg" name="user_message" maxlength="500" placeholder="Write me something..." required></textarea>
         </li>
         <li>
-		      <button type="submit" class="submit-btn"> Get-in-touch</button>
+          <label for="submit"></label>
+		      <button id="submit" type="submit" class="submit-btn"> Get-in-touch</button>
         </li>
         </ul>
     </form>
