@@ -145,7 +145,7 @@ ul {
   margin-top: 10vh;
 }
 
-.grid2 h2 {
+.grid2 h3 {
   font-size: 2em;
   font-family: 'Crete Round', serif;
 }
@@ -224,7 +224,7 @@ ul {
   margin-bottom: 3vh;
 }
 
-.grid3 h2 {
+.grid3 h3 {
   max-width: 90%;
   padding-top: 9vh;
   font-size: 2em;
@@ -532,7 +532,7 @@ button:active {
     max-width: 70vh;
   }
 
-  .grid2 h2 {
+  .grid2 h3 {
     margin-top: 0;
   }
 
@@ -549,7 +549,7 @@ button:active {
     display: none;
   }
 
-  .grid3 h2 {
+  .grid3 h3 {
     padding-top: 0;
     margin-top: 0;
   }
@@ -611,7 +611,7 @@ button:active {
     border: 1px solid black;
   }
 
-  .grid3:hover h2,
+  .grid3:hover h3,
   .grid3:hover p,
   .grid3:hover ul {
     display: none;
