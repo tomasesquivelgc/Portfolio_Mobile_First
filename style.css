@@ -16,7 +16,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 1.4em;
-  height: 10vh;
+  height: 10%;
   justify-content: space-between;
 }
 
@@ -104,9 +104,8 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 550vh;
+  height: 510vh;
   width: 100%;
-  position: 50px 50px;
   margin-top: 50vh;
   display: grid;
   grid-template-columns: 90%;
@@ -145,7 +144,7 @@ ul {
   margin-top: 10vh;
 }
 
-.grid2 h2 {
+.grid2 h3 {
   font-size: 2em;
   font-family: 'Crete Round', serif;
 }
@@ -155,7 +154,7 @@ ul {
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  max-width: 98%;
+  max-width: 100%;
 }
 
 .yoga {
@@ -166,6 +165,7 @@ ul {
 .grid2 ul {
   display: flex;
   justify-content: start;
+  gap: 3%;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   max-width: 100%;
@@ -174,11 +174,10 @@ ul {
 .grid3 p {
   font-size: 1em;
   font-weight: 400;
-  padding-left: 3%;
-  margin: 0;
   font-family: 'Inter', sans-serif;
-  max-width: 80%;
-  margin-bottom: 1vh;
+  max-width: 90%;
+  margin-top: 0;
+  margin-bottom: 5%;
   color: white;
 }
 
@@ -192,14 +191,13 @@ ul {
 .grid2 ul p {
   border: #8993a4 solid 1px;
   font-size: 1em;
-  padding: 1.7vh;
-  margin-right: 2vh;
+  padding: 2vh;
   color: #091e42;
 }
 
 .see-project1 {
   background-color: #ff6b00;
-  width: 20vh;
+  width: 40%;
   height: 7vh;
   border: none;
   color: white;
@@ -222,13 +220,12 @@ ul {
   background-size: cover;
   color: white;
   margin-bottom: 3vh;
+  align-items: center;
 }
 
-.grid3 h2 {
+.grid3 h3 {
   max-width: 90%;
-  padding-top: 9vh;
   font-size: 2em;
-  padding-left: 3%;
   margin-bottom: 3vh;
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -236,17 +233,18 @@ ul {
 
 .grid3 ul {
   display: flex;
-  margin-left: 3%;
+  width: 90%;
 }
 
 .grid3 ul p {
   font-size: 1em;
-  padding: 1vh;
+  padding: 2vh;
   background: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: white;
   margin-right: 1vh;
+  min-width: 20%;
 }
 
 .see-project2 {
@@ -258,6 +256,7 @@ ul {
   font-size: 1.2em;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
+  padding-left: -5%;
 }
 
 .about-section {
@@ -269,15 +268,17 @@ ul {
   background-image: url("./Normal_Button/about-me-back.png");
   background-repeat: no-repeat;
   background-position: 100% 21%;
+  height: 100%;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
-  height: 115vh;
+  height: 160%;
   background-image: url("./Normal_Button/Vector-about.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  margin-bottom: 10%;
 }
 
 .about-me h2 {
@@ -290,8 +291,8 @@ ul {
 }
 
 .get-resume {
-  width: 28vh;
-  height: 9vh;
+  width: 45%;
+  height: 6vh;
   background-color: #ff6b00;
   border: none;
   color: white;
@@ -302,7 +303,7 @@ ul {
 }
 
 .knowledge {
-  margin-top: 20vh;
+  margin-top: 70%;
   margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
@@ -444,7 +445,6 @@ button:active {
     display: flex;
     align-items: center;
     align-content: space-between;
-    padding-right: 5vh;
   }
 
   .dropdown-menu a {
@@ -461,9 +461,9 @@ button:active {
   }
 
   .headline {
-    margin-left: 5vh;
+    margin-left: 2%;
     flex-direction: row;
-    max-width: 77vh;
+    max-width: 50%;
     height: 50vh;
   }
 
@@ -474,11 +474,11 @@ button:active {
 
   .social-media {
     flex-direction: column;
-    height: 90%;
-    width: 10vh;
+    height: 100%;
+    width: 10%;
     order: -1;
     justify-content: center;
-    padding-right: 4%;
+    padding-right: 10%;
   }
 
   .social-media li {
@@ -532,7 +532,7 @@ button:active {
     max-width: 70vh;
   }
 
-  .grid2 h2 {
+  .grid2 h3 {
     margin-top: 0;
   }
 
@@ -549,15 +549,13 @@ button:active {
     display: none;
   }
 
-  .grid3 h2 {
+  .grid3 h3 {
     padding-top: 0;
     margin-top: 0;
   }
 
   .grid3 ul {
     margin: 0;
-    padding-left: 1.5vh;
-    margin-bottom: 1vh;
   }
 
   #website-portfolio {
@@ -609,9 +607,10 @@ button:active {
 
   .grid3:hover {
     border: 1px solid black;
+    padding: 0%;
   }
 
-  .grid3:hover h2,
+  .grid3:hover h3,
   .grid3:hover p,
   .grid3:hover ul {
     display: none;
@@ -644,6 +643,7 @@ button:active {
   }
 
   .knowledge {
+    margin-top: 0%;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -664,7 +664,7 @@ button:active {
 
   .submit-btn {
     margin: 0;
-    width: 20vh;
+    width: 30%;
     height: 7vh;
   }
 
