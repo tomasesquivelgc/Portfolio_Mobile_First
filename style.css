@@ -502,7 +502,6 @@ button:active {
     justify-content: center;
     width: 100%;
     justify-self: center;
-    grid-column: 1 / 4;
   }
 
   .grid1 h2 {
