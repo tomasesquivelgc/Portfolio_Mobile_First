@@ -650,21 +650,24 @@ button:active {
 
   .contact-section {
     flex-direction: row;
-    justify-content: start;
-    padding-left: 10%;
+    justify-content: center;
   }
 
   .contact-form {
     width: 50%;
     margin-top: 81px;
     margin-bottom: 54px;
-    padding-left: 10%;
+    justify-content: center;
   }
 
   .submit-btn {
     margin: 0;
     width: 30%;
     height: 7vh;
+  }
+
+  footer {
+    width: 100%;
   }
 
   .contact-media {
