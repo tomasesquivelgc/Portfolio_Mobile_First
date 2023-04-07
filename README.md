@@ -39,6 +39,8 @@ Portfolio: Mobile First is my first aproach at responsive web development.
 Inside this project you will find a portfolio template cloned from scratch using
 everything i've learned so far in the Microverse program.
 
+[Here is a link](https://www.loom.com/share/4b5eb245644743fe9bf6854053f717ed) to a video that better explains what this project is and what is for.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -108,9 +110,9 @@ To run the project, open the index.html file.
 
 👤 Tomás Esquivel
 
-- GitHub: [@githubhandle](https://github.com/tomasesquivelgc)
-- Twitter: [@twitterhandle](https://twitter.com/EsquivelTomas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
+- GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
+- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
+- LinkedIn: [tomas esquivel](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
