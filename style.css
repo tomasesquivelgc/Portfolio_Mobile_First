@@ -462,7 +462,6 @@ button:active {
   background-position: 50% 99%;
 }
 
-
 @media (min-width: 768px) {
   body {
     background-image: url("./Normal_Button/desktop-header-background.png");
