@@ -10,7 +10,7 @@ body {
 
 #toolbar {
   background-color: #3e3c3c;
-  position: absolute;
+  position: fixed;
   display: flex;
   width: 100%;
   font-style: normal;
@@ -18,6 +18,7 @@ body {
   font-size: 1.4em;
   height: 10%;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .logo {
@@ -51,8 +52,8 @@ body {
 
 #pop-up-menu{
   margin-top: 0;
-  position: absolute;
-  z-index: 2;
+  position: fixed;
+  z-index: 3;
   width: 100%;
   background-color: hsla(20, 3%, 23%, 1);
   height: 100%;
@@ -61,6 +62,30 @@ body {
 
 #close-menu-button {
   float: right;
+  background-color: hsla(20, 3%, 23%, 1);
+  border: none;
+}
+
+#menu-options {
+  clear: right;
+  width: 80%;
+  text-align: left;
+  margin: 0 10%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: white;
+}
+
+#menu-options li {
+  border-bottom: 1px solid hsla(15, 2%, 43%, 1);
+  width: 100%;
+  padding: 3%;
+}
+
+#menu-options a {
+  text-decoration: none;
+  color: white;
 }
 
 .headline {
