@@ -50,7 +50,7 @@ body {
   display: none;
 }
 
-#pop-up-menu{
+#pop-up-menu {
   margin-top: 0;
   position: fixed;
   z-index: 3;
@@ -77,10 +77,29 @@ body {
   color: white;
 }
 
+.knowledge li {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 3vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-media li {
+  padding: 2vh;
+}
+
 #menu-options li {
   border-bottom: 1px solid hsla(15, 2%, 43%, 1);
   width: 100%;
   padding: 3%;
+}
+
+.social-media a {
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ff6b00;
 }
 
 #menu-options a {
@@ -131,14 +150,6 @@ body {
 ul {
   list-style: none;
   padding: 0;
-}
-
-.social-media a {
-  cursor: pointer;
-}
-
-.dropdown-menu a:hover {
-  background-color: #ff6b00;
 }
 
 .work-section {
@@ -350,13 +361,6 @@ ul {
   text-align: center;
 }
 
-.knowledge li {
-  font-size: 1.5em;
-  font-weight: 400;
-  padding: 3vh;
-  font-family: 'Inter', sans-serif;
-}
-
 .knowledge h2 {
   font-weight: 700;
   font-family: 'Inter', sans-serif;
@@ -458,9 +462,6 @@ button:active {
   background-position: 50% 99%;
 }
 
-.contact-media li {
-  padding: 2vh;
-}
 
 @media (min-width: 768px) {
   body {
