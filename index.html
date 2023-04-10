@@ -10,14 +10,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
 <body>
+  <div id="pop-up-menu">
+    <button id="close-menu-button" onclick="closeMenu()">click me</button>
+    <ul>
+      <li><a href="#work-section">Portfolio</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+  </div>
+  
   <header>
     <nav class="toolbar" id="toolbar">
       <a hre="#" class="logo">My Logo</a>
       <div class="menu">
-        <button class="dropdown-button"><span class="material-symbols-outlined">menu</span>
+        <button class="dropdown-button" onclick="openMenu()"><span class="material-symbols-outlined">menu</span>
         </button>
         <div class="dropdown-menu">
           <a href="#work-section">Portfolio</a>

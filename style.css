@@ -49,6 +49,20 @@ body {
   display: none;
 }
 
+#pop-up-menu{
+  margin-top: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background-color: hsla(20, 3%, 23%, 1);
+  height: 100%;
+  display: none;
+}
+
+#close-menu-button {
+  float: right;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
