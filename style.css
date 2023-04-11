@@ -53,7 +53,7 @@ body {
 #pop-up-menu {
   margin-top: 0;
   position: fixed;
-  z-index: 3;
+  z-index: 9999;
   width: 100%;
   background-color: hsla(20, 3%, 23%, 1);
   height: 100%;
@@ -163,6 +163,22 @@ ul {
   gap: 20px;
   justify-content: center;
 }
+
+#pop-up-window {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9998;
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  flex-direction: column;
+}
+
+#pop-up-window 
 
 .h2-show-desktop {
   display: none;
