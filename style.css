@@ -462,6 +462,10 @@ button:active {
   background-position: 50% 99%;
 }
 
+footer {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url("./Normal_Button/desktop-header-background.png");
@@ -703,10 +707,6 @@ button:active {
     margin: 0;
     width: 30%;
     height: 7vh;
-  }
-
-  footer {
-    width: 100%;
   }
 
   .contact-media {
