@@ -12,15 +12,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
 <body>
   <div id="pop-up-menu">
-    <button id="close-menu-button" onclick="closeMenu()"><img src="./Normal_Button/Close_button.png" alt="Close menu"></button>
+    <button id="close-menu-button" class="close-menu-button"><img src="./Normal_Button/Close_button.png" alt="Close menu"></button>
     <ul id="menu-options">
-      <li><a href="#work-section" onclick="closeMenu()">Portfolio</a></li>
-      <li><a href="#about-section" onclick="closeMenu()">About</a></li>
-      <li><a href="#contact-section" onclick="closeMenu()">Contact</a></li>
+      <li><a href="#work-section" class="close-menu-button">Portfolio</a></li>
+      <li><a href="#about-section" class="close-menu-button">About</a></li>
+      <li><a href="#contact-section" class="close-menu-button">Contact</a></li>
     </ul>
   </div>
   
@@ -28,7 +27,7 @@
     <nav class="toolbar" id="toolbar">
       <a hre="#" class="logo">My Logo</a>
       <div class="menu">
-        <button class="dropdown-button" onclick="openMenu()"><span class="material-symbols-outlined">menu</span>
+        <button class="dropdown-button" id="dropdown-button"><span class="material-symbols-outlined">menu</span>
         </button>
         <div class="dropdown-menu">
           <a href="#work-section">Portfolio</a>
@@ -201,5 +200,6 @@
       <li><a href="#"><img src="./Normal_Button/dark-icon-medium.png" alt="medium icon"></a></li>
     </ul>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

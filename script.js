@@ -1,11 +1,13 @@
-function openMenu() {
-    var x = document.getElementById("pop-up-menu");
+const openButton = document.getElementById('dropdown-button');
+openButton.onclick = () => {
+  const x = document.getElementById('pop-up-menu');
+  x.style.display = 'block';
+};
 
-      x.style.display = "block";
-    
-  }
-
-function closeMenu() {
-    var x = document.getElementById("pop-up-menu");
-    x.style.display = "none";
-}
+const closeButton = document.querySelectorAll('.close-menu-button');
+closeButton.forEach((item) => {
+  item.onclick = () => {
+    const y = document.getElementById('pop-up-menu');
+    y.style.display = 'none';
+  };
+});
