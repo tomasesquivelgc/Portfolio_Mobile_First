@@ -180,10 +180,12 @@ ul {
 }
 
 .pop-up-container {
+  display: flex;
+  flex-direction: column;
   align-self: center;
   width: 90%;
   background-color: white;
-  padding: 3%;
+  padding: 5%;
 }
 
 .close-pop-up {
@@ -191,6 +193,12 @@ ul {
   border: none;
   background-color: white;
 } 
+
+.pop-up-image {
+  align-self: center;
+  width: 100%;
+  height: 40vh;
+}
 
 .h2-show-desktop {
   display: none;
@@ -568,8 +576,23 @@ footer {
     grid-gap: 1% 2%;
   }
 
+  .pop-up-container {
+    display: block;
+    width: 70%;
+    height: 70%;
+  }
+
   .pop-up-image {
     float: left;
+    width: 50%;
+    height: 55vh;
+  }
+
+  .text-and-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    height: 50vh;
   }
 
   .grid1 {
