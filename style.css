@@ -192,7 +192,7 @@ ul {
   float: right;
   border: none;
   background-color: white;
-} 
+}
 
 .new-section-technology {
   border: #8993a4 solid 1px;
@@ -207,8 +207,8 @@ ul {
 }
 
 .button-div {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
