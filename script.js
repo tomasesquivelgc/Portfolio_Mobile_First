@@ -59,11 +59,11 @@ function showNewSection(projectId) {
   const container = document.getElementById('yoga-project');
   const newSection = document.createElement('div');
   newSection.id = 'pop-up-window';
-  newSection.innerHTML = `<div class='pop-up-container'><h3 style='margin: 0;'>${projects[projectId].title}<button id='' class='close-pop-up' onclick='closeNewSection()'><img src='./Normal_Button/Close_button.png' alt='Close menu'></button></h3>
+  newSection.innerHTML = `<div class='pop-up-container'><h3 style='margin: 0;'>${projects[projectId].title}<button id='closePopUp' class='close-pop-up' onclick='closeNewSection()'><img src='./Normal_Button/Close_button.png' alt='Close menu'></button></h3>
                           <ul><li><p class='new-section-technology'>${projects[projectId].technology1}</p></li><li><p class='new-section-technology'>${projects[projectId].technology2}</p></li><li><p class='new-section-technology'>${projects[projectId].technology3}</p></li><li><p class='new-section-technology'>${projects[projectId].technology4}</p></li></ul>
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p>${projects[projectId].paragraph}</p>
-                          <div class=button-div><button class=see-project1>See Live<img src=./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'>See Source<img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
+                          <div class=button-div><button class=see-project1>See Live<img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'>See Source<img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
   container.appendChild(newSection);
   newSection.style.display = 'flex';
 }
@@ -71,3 +71,9 @@ function closeNewSection() {
   const newSection = document.getElementById('pop-up-window');
   newSection.parentNode.removeChild(newSection);
 }
+
+const closePopUp = document.getElementById('closePopUp');
+closePopUp.onclick = closeNewSection();
+
+const openPopUp = document.getElementById('popButton');
+openPopUp.onclick = showNewSection();
