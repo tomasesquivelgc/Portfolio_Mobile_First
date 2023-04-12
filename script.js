@@ -4,8 +4,8 @@ openButton.onclick = () => {
   x.style.display = 'block';
 };
 
-const closeButton = document.querySelectorAll('.close-menu-button');
-closeButton.forEach((item) => {
+const closeButtons = document.querySelectorAll('.close-menu-button');
+closeButtons.forEach((item) => {
   item.onclick = () => {
     const y = document.getElementById('pop-up-menu');
     y.style.display = 'none';
