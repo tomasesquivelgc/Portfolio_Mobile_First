@@ -136,6 +136,7 @@ Future features of this project include:
 Contributions on this by:
  - William Ocoró (GitHub: willococa)
  - Gardimy Charles (GitHub: Gardimy)
+ - Luis Emilio Rojas (Github: lerfast)
 
 And every code reviewer who took the time to help me improve
 
