@@ -58,7 +58,7 @@ function showNewSection(projectId) {
                           <ul>${liItems}</ul>
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p>${projects[projectId].paragraph}</p>
-                          <div class=button-div><button class=see-project1>See Live<img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'>See Source<img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
+                          <div class='button-div'><button class='see-project1'>See Live<img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'>See Source<img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
   container.appendChild(newSection);
   newSection.style.display = 'flex';
 }
