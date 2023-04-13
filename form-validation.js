@@ -4,7 +4,7 @@ function validateForm(event) {
   const errorMessage = document.getElementById('error-message');
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     event.preventDefault();
-    errorMessage.innerHTML = 'Please use only lowercase. try:'+emailInput.value.toLowerCase();
+    errorMessage.innerHTML = `Please use only lowercase. try:${emailInput.value.toLowerCase()}`;
   }
 }
 
