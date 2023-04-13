@@ -154,7 +154,7 @@ ul {
 
 .work-section {
   background-color: white;
-  height: 510vh;
+  height: 550vh;
   width: 100%;
   margin-top: 50vh;
   display: grid;
@@ -410,6 +410,11 @@ button:active {
   border-bottom: 0.5px solid lightgray;
   padding: 5vh 0 2vh 2vh;
   margin-bottom: 2vh;
+}
+
+#error-message {
+  color: red;
+  display: block;
 }
 
 .contact-form textarea {
