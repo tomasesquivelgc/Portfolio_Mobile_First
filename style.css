@@ -183,7 +183,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 90%;
+  width: 85%;
   background-color: white;
   padding: 5%;
 }
@@ -198,6 +198,7 @@ ul {
   border: #8993a4 solid 1px;
   font-size: 1em;
   color: #091e42;
+  padding: 1vh;
 }
 
 .pop-up-image {
@@ -209,7 +210,6 @@ ul {
 .button-div {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 .h2-show-desktop {
@@ -590,7 +590,7 @@ footer {
 
   .pop-up-container {
     display: block;
-    width: 70%;
+    width: 75%;
     height: 75%;
   }
 
@@ -603,8 +603,18 @@ footer {
   .text-and-buttons {
     display: flex;
     flex-direction: column;
-    justify-items: flex-end;
-    max-height: fit-content;
+    padding-left: 3%;
+    justify-content: space-between;
+    height: 55vh;
+  }
+
+  .button-div {
+    justify-content: flex-start;
+  }
+
+  .button-div button {
+    margin-right: 3%;
+    min-width: fit-content;
   }
 
   .grid1 {
