@@ -13,6 +13,9 @@ form.oninput = function() {
 };
 
 function loadData() {
-   // userName.value = "JSON.parse(localStorage.getItem(.saveName))";
+    const dataForm = JSON.parse(localStorage.getItem("formdata"));
+    userName.value = dataForm.saveName;
+    userEmail.value = dataForm.saveEmail;
+    userText.value = dataForm.saveText;
 }
 loadData();
