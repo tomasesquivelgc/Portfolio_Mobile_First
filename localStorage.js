@@ -3,7 +3,7 @@ const userName = formelement[0];
 const userEmail = formelement[1];
 const userText = formelement[2];
 
-formelement.oninput = function saveData () {
+formelement.oninput = function saveData() {
   const data = {
     saveName: userName.value,
     saveEmail: userEmail.value,
