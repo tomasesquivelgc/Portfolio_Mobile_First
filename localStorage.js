@@ -1,10 +1,10 @@
-const formelement = document.getElementById('form-element');
+const formelements = document.getElementById('form-element');
 const userName = formelement[0];
 const userEmail = formelement[1];
 const userText = formelement[2];
 
 formelement.oninput = function saveData() {
-  const data = {
+  const datas = {
     saveName: userName.value,
     saveEmail: userEmail.value,
     saveText: userText.value,
