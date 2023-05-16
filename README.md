@@ -75,7 +75,7 @@ The key features of this project are:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see my Portfolio in action, simply check [here](https://tomasesquivelgc.github.io)
+To see my Portfolio in action, simply check [here](https://tomasesquivelgc.github.io/Portfolio_Mobile_First/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
