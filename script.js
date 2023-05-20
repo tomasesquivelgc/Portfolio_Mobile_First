@@ -14,10 +14,10 @@ closeButtons.forEach((item) => {
 
 const projects = {
   yoga: {
-    title: 'Multi-Post Stories',
-    technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    image: './Normal_Button/yoga-img.jpg',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    title: 'Awesome Books',
+    technologies: ['CSS', 'HTML', 'ES6', 'Luxon'],
+    image: './Normal_Button/Awesome_books_2.png',
+    paragraph: "📚📖App that uses your local storage to keep a list of books that you can add or delete. Use the navbar to navigate the js generated list, use the input element or access the contact section.",
     link: 'link_to_live_version.com',
   },
 
@@ -58,7 +58,7 @@ function showNewSection(projectId) {
                           <ul>${liItems}</ul>
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p>${projects[projectId].paragraph}</p>
-                          <div class='button-div'><button class='see-project1'>See Live<img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'>See Source<img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
+                          <div class='button-div'><button class='see-project1'><a href="https://tomasesquivelgc.github.io/Awesome-books/">See Live</a><img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'><a href="https://github.com/tomasesquivelgc/Awesome-books">See Source</a><img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
   container.appendChild(newSection);
   newSection.style.display = 'flex';
 }
