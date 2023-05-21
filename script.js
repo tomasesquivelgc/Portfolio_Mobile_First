@@ -16,8 +16,8 @@ const projects = {
   yoga: {
     title: 'Awesome Books',
     technologies: ['CSS', 'HTML', 'ES6', 'Luxon'],
-    image: './Normal_Button/Awesome_books_2.png',
-    paragraph: "📚📖App that uses your local storage to keep a list of books that you can add or delete. Use the navbar to navigate the js generated list, use the input element or access the contact section.",
+    image: './Normal_Button/awesome_books_2.png',
+    paragraph: "This is a one page application using basic CSS classes to hide and show the section you want to see with the navBar. The 'add Book' input adds a class instance into our list and then renders it for a complete view of the library. The complete list is then saved to the local storage for everyday use. Try it out in the live demo!",
     link: 'link_to_live_version.com',
   },
 
