@@ -328,7 +328,6 @@ button:hover {
   border: #f55800 solid 1px;
   background-color: #fff5e1;
   color: #f55800;
-  transform: translateY(-10px);
 }
 
 button:active {
