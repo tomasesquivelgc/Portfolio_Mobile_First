@@ -10,14 +10,15 @@ body {
 
 #toolbar {
   background-color: #3e3c3c;
-  position: absolute;
+  position: fixed;
   display: flex;
   width: 100%;
   font-style: normal;
   font-weight: 700;
   font-size: 1.4em;
-  height: 10vh;
+  height: 10%;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .logo {
@@ -47,6 +48,63 @@ body {
 
 .dropdown-menu {
   display: none;
+}
+
+#pop-up-menu {
+  margin-top: 0;
+  position: fixed;
+  z-index: 9998;
+  width: 100%;
+  background-color: hsla(20, 3%, 23%, 1);
+  height: 100%;
+  display: none;
+}
+
+#close-menu-button {
+  float: right;
+  background-color: hsla(20, 3%, 23%, 1);
+  border: none;
+}
+
+#menu-options {
+  clear: right;
+  width: 80%;
+  text-align: left;
+  margin: 0 10%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: white;
+}
+
+.knowledge li {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 3vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-media li {
+  padding: 2vh;
+}
+
+#menu-options li {
+  border-bottom: 1px solid hsla(15, 2%, 43%, 1);
+  width: 100%;
+  padding: 3%;
+}
+
+.social-media a {
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ff6b00;
+}
+
+#menu-options a {
+  text-decoration: none;
+  color: white;
 }
 
 .headline {
@@ -94,25 +152,65 @@ ul {
   padding: 0;
 }
 
-.social-media a {
-  cursor: pointer;
-}
-
-.dropdown-menu a:hover {
-  background-color: #ff6b00;
-}
-
 .work-section {
   background-color: white;
   height: 550vh;
   width: 100%;
-  position: 50px 50px;
   margin-top: 50vh;
   display: grid;
   grid-template-columns: 90%;
   grid-template-rows: repeat(7, 60vh);
   gap: 20px;
   justify-content: center;
+}
+
+#pop-up-window {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pop-up-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 85%;
+  background-color: white;
+  padding: 5%;
+}
+
+.close-pop-up {
+  float: right;
+  border: none;
+  background-color: white;
+}
+
+.new-section-technology {
+  border: #8993a4 solid 1px;
+  font-size: 1em;
+  color: #091e42;
+  padding: 1vh;
+}
+
+.pop-up-image {
+  align-self: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
 }
 
 .h2-show-desktop {
@@ -145,7 +243,7 @@ ul {
   margin-top: 10vh;
 }
 
-.grid2 h2 {
+.grid2 h3 {
   font-size: 2em;
   font-family: 'Crete Round', serif;
 }
@@ -155,7 +253,7 @@ ul {
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  max-width: 98%;
+  max-width: 100%;
 }
 
 .yoga {
@@ -166,6 +264,7 @@ ul {
 .grid2 ul {
   display: flex;
   justify-content: start;
+  gap: 3%;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   max-width: 100%;
@@ -174,11 +273,10 @@ ul {
 .grid3 p {
   font-size: 1em;
   font-weight: 400;
-  padding-left: 3%;
-  margin: 0;
   font-family: 'Inter', sans-serif;
-  max-width: 80%;
-  margin-bottom: 1vh;
+  max-width: 90%;
+  margin-top: 0;
+  margin-bottom: 5%;
   color: white;
 }
 
@@ -189,17 +287,16 @@ ul {
   font-family: 'Inter', sans-serif;
 }
 
-.grid2 ul p {
+.yoga-ul-p {
   border: #8993a4 solid 1px;
   font-size: 1em;
-  padding: 1.7vh;
-  margin-right: 2vh;
+  padding: 2vh;
   color: #091e42;
 }
 
 .see-project1 {
   background-color: #ff6b00;
-  width: 20vh;
+  width: 40%;
   height: 7vh;
   border: none;
   color: white;
@@ -222,13 +319,12 @@ ul {
   background-size: cover;
   color: white;
   margin-bottom: 3vh;
+  align-items: center;
 }
 
-.grid3 h2 {
+.grid3 h3 {
   max-width: 90%;
-  padding-top: 9vh;
   font-size: 2em;
-  padding-left: 3%;
   margin-bottom: 3vh;
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -236,17 +332,18 @@ ul {
 
 .grid3 ul {
   display: flex;
-  margin-left: 3%;
+  width: 90%;
 }
 
 .grid3 ul p {
   font-size: 1em;
-  padding: 1vh;
+  padding: 2vh;
   background: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: white;
   margin-right: 1vh;
+  min-width: 20%;
 }
 
 .see-project2 {
@@ -258,7 +355,7 @@ ul {
   font-size: 1.2em;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
-  transition: transform 0.3s ease 0s;
+  padding-left: -5%;
 }
 
 .about-section {
@@ -270,15 +367,17 @@ ul {
   background-image: url("./Normal_Button/about-me-back.png");
   background-repeat: no-repeat;
   background-position: 100% 21%;
+  height: 100%;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
-  height: 115vh;
+  height: 160%;
   background-image: url("./Normal_Button/Vector-about.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  margin-bottom: 10%;
 }
 
 .about-me h2 {
@@ -291,8 +390,8 @@ ul {
 }
 
 .get-resume {
-  width: 28vh;
-  height: 9vh;
+  width: 45%;
+  height: 6vh;
   background-color: #ff6b00;
   border: none;
   color: white;
@@ -303,19 +402,12 @@ ul {
 }
 
 .knowledge {
-  margin-top: 20vh;
+  margin-top: 70%;
   margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
   color: white;
   text-align: center;
-}
-
-.knowledge li {
-  font-size: 1.5em;
-  font-weight: 400;
-  padding: 3vh;
-  font-family: 'Inter', sans-serif;
 }
 
 .knowledge h2 {
@@ -369,6 +461,11 @@ button:active {
   margin-bottom: 2vh;
 }
 
+#error-message {
+  color: red;
+  display: block;
+}
+
 .contact-form textarea {
   width: 98%;
   height: 20vh;
@@ -419,8 +516,8 @@ button:active {
   background-position: 50% 99%;
 }
 
-.contact-media li {
-  padding: 2vh;
+footer {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -445,7 +542,6 @@ button:active {
     display: flex;
     align-items: center;
     align-content: space-between;
-    padding-right: 5vh;
   }
 
   .dropdown-menu a {
@@ -468,9 +564,9 @@ button:active {
   }
 
   .headline {
-    margin-left: 5vh;
+    margin-left: 2%;
     flex-direction: row;
-    max-width: 77vh;
+    max-width: 50%;
     height: 50vh;
     animation-duration: 1s;
     animation-name: bounce-in-right;
@@ -510,11 +606,11 @@ button:active {
 
   .social-media {
     flex-direction: column;
-    height: 90%;
-    width: 10vh;
+    height: 100%;
+    width: 10%;
     order: -1;
     justify-content: center;
-    padding-right: 4%;
+    padding-right: 10%;
   }
 
   .social-media li {
@@ -533,12 +629,41 @@ button:active {
     grid-gap: 1% 2%;
   }
 
+  .pop-up-container {
+    display: block;
+    width: 75%;
+    height: 75%;
+  }
+
+  .pop-up-image {
+    float: left;
+    width: 50%;
+    height: 55vh;
+  }
+
+  .text-and-buttons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    justify-content: space-between;
+    height: 55vh;
+  }
+
+  .button-div {
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  .button-div button {
+    margin-right: 3%;
+    min-width: fit-content;
+  }
+
   .grid1 {
     flex-direction: row;
     justify-content: center;
     width: 100%;
     justify-self: center;
-    grid-column: 1 / 4;
   }
 
   .grid1 h2 {
@@ -568,7 +693,7 @@ button:active {
     max-width: 70vh;
   }
 
-  .grid2 h2 {
+  .grid2 h3 {
     margin-top: 0;
   }
 
@@ -586,15 +711,13 @@ button:active {
     display: none;
   }
 
-  .grid3 h2 {
+  .grid3 h3 {
     padding-top: 0;
     margin-top: 0;
   }
 
   .grid3 ul {
     margin: 0;
-    padding-left: 1.5vh;
-    margin-bottom: 1vh;
   }
 
   #website-portfolio {
@@ -646,9 +769,10 @@ button:active {
 
   .grid3:hover {
     border: 1px solid black;
+    padding: 0%;
   }
 
-  .grid3:hover h2,
+  .grid3:hover h3,
   .grid3:hover p,
   .grid3:hover ul {
     display: none;
@@ -681,6 +805,7 @@ button:active {
   }
 
   .knowledge {
+    margin-top: 0%;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -688,20 +813,19 @@ button:active {
 
   .contact-section {
     flex-direction: row;
-    justify-content: start;
-    padding-left: 10%;
+    justify-content: center;
   }
 
   .contact-form {
     width: 50%;
     margin-top: 81px;
     margin-bottom: 54px;
-    padding-left: 10%;
+    justify-content: center;
   }
 
   .submit-btn {
     margin: 0;
-    width: 20vh;
+    width: 30%;
     height: 7vh;
   }
 

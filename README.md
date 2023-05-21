@@ -1,32 +1,7 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <br/>
 
   <h3><b>Portfolio: Mobile First</b></h3>
@@ -64,6 +39,8 @@ Portfolio: Mobile First is my first aproach at responsive web development.
 Inside this project you will find a portfolio template cloned from scratch using
 everything i've learned so far in the Microverse program.
 
+[Here is a link](https://www.loom.com/share/4b5eb245644743fe9bf6854053f717ed) to a video that better explains what this project is and what is for.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -87,13 +64,18 @@ The key features of this project are:
 - Use of flexbox to replicate a template
 - An adaptive layout that responds to screen width
 
+### Features implemented
+
+- Functioning mobile version with a responsive layout
+- Desktop version (min 768px) working complete with animations
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming soon...
+To see my Portfolio in action, simply check [here](https://tomasesquivelgc.github.io/Portfolio_Mobile_First/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +100,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-To run the project, open the inde.html file.
+To run the project, open the index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,9 +110,9 @@ To run the project, open the inde.html file.
 
 👤 Tomás Esquivel
 
-- GitHub: [@githubhandle](https://github.com/tomasesquivelgc)
-- Twitter: [@twitterhandle](https://twitter.com/EsquivelTomas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
+- GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
+- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
+- LinkedIn: [tomas esquivel](https://www.linkedin.com/in/tomas-esquivel-b2160568/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +122,9 @@ To run the project, open the inde.html file.
 
 Future features of this project include:
 
-- [ ] About, projects and contact section.
-- [ ] Buttons and links will work.
+- [✔] About, projects and contact section.
+- [✔] NavBar Buttons working as intended
+- [ ] Links to Social media
 - [ ] An overlay menu for mobile.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,7 +133,12 @@ Future features of this project include:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions on this by:
+ - William Ocoró (GitHub: willococa)
+ - Gardimy Charles (GitHub: Gardimy)
+ - Luis Emilio Rojas (Github: lerfast)
+
+And every code reviewer who took the time to help me improve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +158,6 @@ I would like to thank the whole Microverse team, the support team and code revie
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 

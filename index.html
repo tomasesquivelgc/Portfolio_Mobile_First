@@ -3,28 +3,38 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Portfolio</title>
+  <title>Tomás Esquivel Portfolio</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
 <body>
+  <div id="pop-up-menu">
+    <button id="close-menu-button" class="close-menu-button"><img src="./Normal_Button/Close_button.png" alt="Close menu"></button>
+    <ul id="menu-options">
+      <li><a href="#work-section" class="close-menu-button">Portfolio</a></li>
+      <li><a href="#about-section" class="close-menu-button">About</a></li>
+      <li><a href="#contact-section" class="close-menu-button">Contact</a></li>
+    </ul>
+  </div>
+  
   <header>
     <nav class="toolbar" id="toolbar">
       <a hre="#" class="logo">My Logo</a>
       <div class="menu">
-        <button class="dropdown-button"><span class="material-symbols-outlined">menu</span>
+        <button class="dropdown-button" id="dropdown-button"><span class="material-symbols-outlined">menu</span>
         </button>
-        <ul class="dropdown-menu">
+        <div class="dropdown-menu">
           <a href="#work-section">Portfolio</a>
           <a href="#about-section">About</a>
           <a href="#contact-section">Contact</a>
-          <a href="#"><img src="./Normal_Button/desktop-mail-icon.png"></a>
-        </ul>
+          <a href="#"><img src="./Normal_Button/desktop-mail-icon.png" alt="Send email"></a>
+        </div>
       </div>
     </nav>
   </header>
@@ -35,96 +45,96 @@
       <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
     </div>
     <ul class="social-media">
-      <li><a href="#"><img src="./Normal_Button/Icon-GitHub.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Linkedin.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/angelist-1.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Twitter.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Medium.png"></a></li>
+      <li><a href="#"><img src="./Normal_Button/Icon-GitHub.png" alt="Github icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/Icon-Linkedin.png"alt="Linkedin icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/angelist-1.png" alt="Angelist icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/Icon-Twitter.png" alt="Twitter icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/Icon-Medium.png" alt="Medium icon"></a></li>
     </ul>
   </section>
   <section class="work-section" id="work-section">
-    <div class="work">
-      <div class="grid1">
+    <div class="grid1">
         <h2>My recent works</h2> 
-        <div class="grid1-image-container"><img class="recent-work-line" src="./Normal_Button/Vector.png"></div>
+        <div class="grid1-image-container"><img class="recent-work-line" src="./Normal_Button/Vector.png" alt=" "></div>
       </div>
-      <div class="grid2">
-        <img class="yoga" src="./Normal_Button/yoga-img.jpg" alt="woman doing yoga">
+    <div class="work">
+      <div class="grid2" id="yoga-project">
+        <img class="yoga" src="./Normal_Button/awesome_books_1.png" alt="woman doing yoga">
         <div class="grid2-content">
-          <h2>Multi-Post Stories</h2>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <h3>Awesome books</h3>
+          <p>📚📖App that uses your local storage to keep a list of books that you can add or delete. Use the navbar to navigate the js generated list, use the input element or access the contact section.</p>
           <ul>
-            <li><p>CSS</p></li>
-            <li><p>HTML</p></li>
-            <li><p>Bootstrap</p></li>
-            <li><p>Ruby</p></li>
+            <li><p class="yoga-ul-p">CSS</p></li>
+            <li><p class="yoga-ul-p">HTML</p></li>
+            <li><p class="yoga-ul-p">ES6</p></li>
+            <li><p class="yoga-ul-p">Luxon</p></li>
           </ul>
-          <button class="see-project1">See project</button>
+          <button class="see-project1" onclick="showNewSection('yoga')" id="popButton">See project</button>
         </div>
       </div>
       <div class="grid3" id="profesional-art-printing-data">
-        <h2>Profesional Art Printing Data</h2>
+        <h3>Profesional Art Printing Data</h3>
         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
         <ul>
           <li><p>HTML</p></li>
           <li><p>Bootstrap</p></li>
           <li><p>Ruby</p></li>
         </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('artprinting')">See project</button>
       </div>
       <div class="grid3" id="data-dashboard">
-          <h2 class="h2-hide-desktop">Profesional Art Printing Data</h2>
-          <h2 class="h2-show-desktop">Data Dashboard Healthcare</h2>
+          <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
+          <h3 class="h2-show-desktop">Data Dashboard Healthcare</h3>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
           <ul>
             <li><p>HTML</p></li>
             <li><p>Bootstrap</p></li>
             <li><p>Ruby</p></li>
           </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('dataDash')">See project</button>
       </div>
       <div class="grid3" id="website-portfolio">
-        <h2  class="h2-hide-desktop">Profesional Art Printing Data</h2>
-        <h2 class="h2-show-desktop">Website Portfolio</h2>
+        <h3  class="h2-hide-desktop">Profesional Art Printing Data</h3>
+        <h3 class="h2-show-desktop">Website Portfolio</h3>
         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
         <ul>
           <li><p>HTML</p></li>
           <li><p>Bootstrap</p></li>
           <li><p>Ruby</p></li>
         </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('webPort')">See project</button>
       </div>
       <div class="grid3" id="profesional-art-printing-data">
-        <h2>Profesional Art Printing Data</h2>
+        <h3>Profesional Art Printing Data</h2>
         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
         <ul>
           <li><p>HTML</p></li>
           <li><p>Bootstrap</p></li>
           <li><p>Ruby</p></li>
         </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('artprinting')">See project</button>
       </div>
       <div class="grid3" id="data-dashboard">
-        <h2 class="h2-hide-desktop">Profesional Art Printing Data</h2>
-        <h2 class="h2-show-desktop">Data Dashboard Healthcare</h2>
+        <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
+        <h3 class="h2-show-desktop">Data Dashboard Healthcare</h3>
         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
         <ul>
           <li><p>HTML</p></li>
           <li><p>Bootstrap</p></li>
           <li><p>Ruby</p></li>
         </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('dataDash')">See project</button>
       </div>
       <div class="grid3" id="website-portfolio">
-        <h2 class="h2-hide-desktop">Profesional Art Printing Data</h2>
-        <h2 class="h2-show-desktop">Website Portfolio</h2>
+        <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
+        <h3 class="h2-show-desktop">Website Portfolio</h3>
         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
         <ul>
           <li><p>HTML</p></li>
           <li><p>Bootstrap</p></li>
           <li><p>Ruby</p></li>
         </ul>
-        <button class="see-project2">See project</button>
+        <button class="see-project2" onclick="showNewSection('webPort')">See project</button>
       </div>
     </div>
   </section>
@@ -136,21 +146,21 @@
     </div>
     <ul class="knowledge">
       <ul>
-        <li><h2><img src="./Normal_Button/language-rectangle.png"> Language</h2></li>
+        <li><h3><img src="./Normal_Button/language-rectangle.png" alt=" "> Language</h3></li>
         <li>Javascript</li>
         <li>Ruby</li>
         <li>HTML</li>
         <li>CSS</li>
       </ul>
       <ul>
-        <li><h2><img src="Normal_Button/frameworks-rectangle.png">   Frameworks</h2></li>
+        <li><h3><img src="Normal_Button/frameworks-rectangle.png" alt=" ">   Frameworks</h3></li>
         <li>React.js</li>
         <li>Ruby on Rails</li>
         <li>RSpec</li>
         <li>Capybara</li>
         </ul>
       <ul>
-        <li><h2><img src="Normal_Button/skills-circle.png"> Skills</h2></li>
+        <li><h3><img src="Normal_Button/skills-circle.png" alt=" "> Skills</h3></li>
         <li>Database Managment</li>
         <li>Version Control</li>
         <li>CLI</li>
@@ -161,31 +171,38 @@
   </section>
   <section class="contact-section" id="contact-section">
     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-    <form class="contact-form" action="https://formspree.io/f/xwkjrkqw" method="post">
+    <form class="contact-form" action="https://formspree.io/f/xwkjrkqw" method="post" id="form-element" onsubmit="return validateForm()">
       <ul>
         <li>
-          <input type="text"  name="name" placeholder="Full name" maxlength="30" required/>
+          <label for="full-name"></label>
+          <input id="full-name" type="text"  name="name" placeholder="Full name" maxlength="30" required/>
         </li>
         <li>
-          <input type="email" name="email" placeholder="Email address"  required/>
+          <label for="email"></label>
+          <input id="email" type="email" name="email" placeholder="Email address"  required/>
         </li>
+        <div id="error-message"></div>
         <li>
           <textarea id="msg" name="user_message" maxlength="500" placeholder="Write me something..." required></textarea>
         </li>
         <li>
-		      <button type="submit" class="submit-btn"> Get-in-touch</button>
+          <label for="submit"></label>
+		      <button id="submit" type="submit" class="submit-btn"> Get-in-touch</button>
         </li>
         </ul>
     </form>
   </section>
   <footer>
     <ul class="contact-media">
-      <li><a href="#"><img src="./Normal_Button/dark-icon-github.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-linkedin.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-angelist.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Dark-icon-twitter.png"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-medium.png"></a></li>
+      <li><a href="#"><img src="./Normal_Button/dark-icon-github.png" alt="github icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/dark-icon-linkedin.png" alt="linkedin icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/dark-icon-angelist.png" alt="angelist icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/Dark-icon-twitter.png" alt="twitter icon"></a></li>
+      <li><a href="#"><img src="./Normal_Button/dark-icon-medium.png" alt="medium icon"></a></li>
     </ul>
-  </footer>  
+  </footer>
+  <script src="script.js"></script>
+  <script src="form-validation.js"></script>
+  <script src="localStorage.js"></script>
 </body>
 </html>

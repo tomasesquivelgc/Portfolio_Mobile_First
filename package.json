@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio_Mobile_First",
+  "name": "portfolio_mobile_first",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/tomasesquivelgc/Portfolio_Mobile_First#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
     "hint": "^7.1.5",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
