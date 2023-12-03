@@ -19,6 +19,7 @@ const projects = {
     image: './Normal_Button/awesome_books_2.png',
     paragraph: "This is a one page application using basic CSS classes to hide and show the section you want to see with the navBar. The 'add Book' input adds a class instance into our list and then renders it for a complete view of the library. The complete list is then saved to the local storage for everyday use. Try it out in the live demo!",
     link: 'link_to_live_version.com',
+    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
 
   artprinting: {
@@ -27,6 +28,7 @@ const projects = {
     image: './Normal_Button/desktop-grid3-background-A.png',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
+    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
 
   dataDash: {
@@ -35,6 +37,7 @@ const projects = {
     image: './Normal_Button/data-dashboard-hovered.png',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
+    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
 
   webPort: {
@@ -43,6 +46,16 @@ const projects = {
     image: './Normal_Button/web-portfolio-background.png',
     paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     link: 'link_to_live_version.com',
+    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
+  },
+
+  gameSales: {
+    title: 'Game Sales Hunter',
+    technologies: ['Javascript', 'React', 'Redux'],
+    image: './project_images/game_sales/game_sale_screenshot_3.png',
+    paragraph: 'Mobile App using CheapShark Api to find the best deals on games. The user can search for a specific game or browse through the deals list. By clickin, the user can also see the games details and a link to the official steam page',
+    link: 'https://monumental-raindrop-ef8680.netlify.app',
+    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
 };
 
@@ -58,7 +71,7 @@ function showNewSection(projectId) {
                           <ul>${liItems}</ul>
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p>${projects[projectId].paragraph}</p>
-                          <div class='button-div'><button class='see-project1'><a href="https://tomasesquivelgc.github.io/Awesome-books/">See Live</a><img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'><a href="https://github.com/tomasesquivelgc/Awesome-books">See Source</a><img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
+                          <div class='button-div'><button class='see-project1'><a href=${projects[projectId].link}>See Live</a><img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'><a href=${projects[projectId].codeLink}>See Source</a><img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
   container.appendChild(newSection);
   newSection.style.display = 'flex';
 }
