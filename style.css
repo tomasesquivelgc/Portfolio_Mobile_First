@@ -323,11 +323,11 @@ ul {
 }
 
 .game-sales {
-    background-image: url("./project_images/game_sales/game_sale_screenshot_1.png");
+  background-image: url("./project_images/game_sales/game_sale_screenshot_1.png");
 }
 
 .game-sales:hover {
-    background-image: url("./project_images/game_sales/game_sale_screenshot_2.png");
+  background-image: url("./project_images/game_sales/game_sale_screenshot_2.png");
 }
 
 .grid3 h3 {

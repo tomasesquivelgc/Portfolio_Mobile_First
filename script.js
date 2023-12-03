@@ -53,7 +53,7 @@ const projects = {
     title: 'Game Sales Hunter',
     technologies: ['Javascript', 'React', 'Redux'],
     image: './project_images/game_sales/game_sale_screenshot_3.png',
-    paragraph: "Mobile App using CheapShark Api to find the best deals on games. The user can search for a specific game or browse through the deals list. By clickin, the user can also see the games details and a link to the official steam page",
+    paragraph: 'Mobile App using CheapShark Api to find the best deals on games. The user can search for a specific game or browse through the deals list. By clickin, the user can also see the games details and a link to the official steam page',
     link: 'https://monumental-raindrop-ef8680.netlify.app',
     codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
