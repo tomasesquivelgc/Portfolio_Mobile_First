@@ -61,7 +61,7 @@ const projects = {
   recipeApp: {
     title: 'Recipe App',
     technologies: ['Ruby', 'Rails', 'PostgreSQL'],
-    image: './project_images/recipe_app/recipe_app_screenshot_3.png',
+    image: './project_images/recipe_app/recipe_app_screenshot_2.png',
     paragraph: 'Web App that allows users to create, edit, and delete recipes. The user can also add ingredients and steps to the recipe, as well as deciding if their recipe is public or not.',
     link: '',
     codeLink: 'https://github.com/tomasesquivelgc/Recipe-app',
