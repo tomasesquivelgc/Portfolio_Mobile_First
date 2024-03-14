@@ -18,8 +18,8 @@ const projects = {
     technologies: ['CSS', 'HTML', 'ES6', 'Luxon'],
     image: './Normal_Button/awesome_books_2.png',
     paragraph: "This is a one page application using basic CSS classes to hide and show the section you want to see with the navBar. The 'add Book' input adds a class instance into our list and then renders it for a complete view of the library. The complete list is then saved to the local storage for everyday use. Try it out in the live demo!",
-    link: 'link_to_live_version.com',
-    codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
+    link: 'https://tomasesquivelgc.github.io/Awesome-books/',
+    codeLink: 'https://github.com/tomasesquivelgc/Awesome-books',
   },
 
   artprinting: {
@@ -66,6 +66,15 @@ const projects = {
     link: '',
     codeLink: 'https://github.com/tomasesquivelgc/Recipe-app',
   },
+
+  bookCar: {
+    title: 'Book a Car',
+    technologies: ['Ruby', 'Rails', 'PostgreSQL', 'React', 'Redux'],
+    image: './project_images/bookcar/book_car_screenshot_2.png',
+    paragraph: 'Full-stack app built with Ruby on Rails and React/Redux. The user can book a car for a specific date and time, as well as see the available cars and their details. The user can also see the available cities to rent. Admins can add new cars as well as delete them.',
+    link: 'https://fmanimashaun.github.io/book-car/',
+    codeLink: 'https://github.com/tomasesquivelgc/book-car',
+  }
 };
 
 function showNewSection(projectId) {
@@ -80,7 +89,7 @@ function showNewSection(projectId) {
                           <ul>${liItems}</ul>
                           <img src='${projects[projectId].image}' alt='${projects[projectId].title}' class='pop-up-image'/>
                           <div class='text-and-buttons'><p>${projects[projectId].paragraph}</p>
-                          <div class='button-div'><button class='see-project1'><a href=${projects[projectId].link}>See Live</a><img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'><a href=${projects[projectId].codeLink}>See Source</a><img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
+                          <div class='button-div'><button class='see-project1'><a href=${projects[projectId].link} target="_blank">See Live</a><img src='./Normal_Button/seeLive-button.svg' alt='See live'></button><button class='see-project1'><a href=${projects[projectId].codeLink} target="_blank">See Source</a><img src='./Normal_Button/seeSource-button.svg' alt='See source'</button></div></div></div>';`;
   container.appendChild(newSection);
   newSection.style.display = 'flex';
 }
