@@ -582,6 +582,11 @@ footer {
   width: 100%;
 }
 
+.logo-face {
+  width: 10vh;
+  border-radius: 100%;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url("./Normal_Button/desktop-header-background.png");
