@@ -94,6 +94,15 @@ const projects = {
     codeLink: 'https://github.com/tomasesquivelgc/My-Things-Catalog/tree/dev',
   },
 
+  anemoia: {
+    title: 'Anemoia',
+    technologies: ['Javascript', 'HTML', 'CSS3'],
+    image: './project_images/anemoia/anemoia_screenshot_3.png',
+    paragraph: 'Landing page for a fictional event built with simple HTML, CSS and JavaScript. The page is fully responsive with a mobile-first approach. Sections are hidden and shown with a simple JavaScript function and created with DOM manipulation.',
+    link: 'https://precious-dolphin-41f59b.netlify.app',
+    codeLink: 'https://github.com/tomasesquivelgc/module1-capstone',
+  },
+
 };
 
 function showNewSection(projectId) {
@@ -122,3 +131,7 @@ closePopUp.onclick = closeNewSection();
 
 const openPopUp = document.getElementById('popButton');
 openPopUp.onclick = showNewSection();
+
+function openResume() {
+  window.open('https://docs.google.com/document/d/e/2PACX-1vRgXEd3utL9Uql57taDOidPbsYLvzCnwtv_B22REQOEhlTgC6zVEXrgss-M-YwjkjGsK22qdDXvzRmh/pub', '_blank');
+}
