@@ -74,6 +74,15 @@ const projects = {
     paragraph: 'Full-stack app built with Ruby on Rails and React/Redux. The user can book a car for a specific date and time, as well as see the available cars and their details. The user can also see the available cities to rent. Admins can add new cars as well as delete them.',
     link: 'https://fmanimashaun.github.io/book-car/',
     codeLink: 'https://github.com/tomasesquivelgc/book-car',
+  },
+
+  spaceTravel: {
+    title: 'Space Travel',
+    technologies: ['Javascript', 'React', 'Redux'],
+    image: './project_images/space_travel/space_hub_screenshot_3.png',
+    paragraph: 'Web App that allows users to navigate a list of rockets or missions and book them. The user can also navigate to their booked items. This app was built using the SpaceX API.',
+    link: 'https://deploy-preview-36--guileless-halva-645039.netlify.app',
+    codeLink: 'https://github.com/tomasesquivelgc/Space-Travelers-Hub',
   }
 };
 
