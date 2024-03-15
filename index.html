@@ -15,7 +15,7 @@
 </head>
 <body>
   <div id="pop-up-menu">
-    <button id="close-menu-button" class="close-menu-button"><img src="./Normal_Button/Close_button.png" alt="Close menu"></button>
+    <button id="close-menu-button" class="close-menu-button" type="button"><img src="./Normal_Button/Close_button.png" alt="Close menu"></button>
     <ul id="menu-options">
       <li><a href="#work-section" class="close-menu-button">Portfolio</a></li>
       <li><a href="#about-section" class="close-menu-button">About</a></li>
@@ -25,9 +25,9 @@
   
   <header>
     <nav class="toolbar" id="toolbar">
-      <a hre="#" class="logo">My Logo</a>
+      <a hre="#" class="logo"><img src="./project_images/logo/cropped_face.jpg" alt="Thats me!" class="logo-face"></a>
       <div class="menu">
-        <button class="dropdown-button" id="dropdown-button"><span class="material-symbols-outlined">menu</span>
+        <button class="dropdown-button" id="dropdown-button" type="button"><span class="material-symbols-outlined">menu</span>
         </button>
         <div class="dropdown-menu">
           <a href="#work-section">Portfolio</a>
@@ -45,11 +45,11 @@
       <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
     </div>
     <ul class="social-media">
-      <li><a href="#"><img src="./Normal_Button/Icon-GitHub.png" alt="Github icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Linkedin.png"alt="Linkedin icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/angelist-1.png" alt="Angelist icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Twitter.png" alt="Twitter icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Icon-Medium.png" alt="Medium icon"></a></li>
+      <li><a href="https://github.com/tomasesquivelgc?tab=repositories" target="_blank" rel="noopener"><img src="./Normal_Button/Icon-GitHub.png" alt="Github icon"></a></li>
+      <li><a href="https://www.linkedin.com/in/tomas-esquivel-dev/ " target="_blank" rel="noopener"><img src="./Normal_Button/Icon-Linkedin.png" alt="Linkedin icon"></a></li>
+      <!-- <li><a href="#" target="_blank"><img src="./Normal_Button/angelist-1.png" alt="Angelist icon"></a></li> -->
+      <!-- <li><a href="#" target="_blank"><img src="./Normal_Button/Icon-Twitter.png" alt="Twitter icon"></a></li> -->
+      <li><a href="https://medium.com/@tomasesquivel" target="_blank" rel="noopener"><img src="./Normal_Button/Icon-Medium.png" alt="Medium icon"></a></li>
     </ul>
   </section>
   <section class="work-section" id="work-section">
@@ -59,17 +59,18 @@
       </div>
     <div class="work">
       <div class="grid2" id="yoga-project">
-        <img class="yoga" src="./Normal_Button/awesome_books_1.png" alt="woman doing yoga">
+        <img class="yoga" src="./project_images/bookcar/book_car_screenshot_1.png" alt="woman doing yoga">
         <div class="grid2-content">
-          <h3>Awesome books</h3>
-          <p>📚📖App that uses your local storage to keep a list of books that you can add or delete. Use the navbar to navigate the js generated list, use the input element or access the contact section.</p>
+          <h3>BookCar</h3>
+          <p>🚘💲Find your perfect ride! With this full-stack app the user can browse through a selection of cars and cities to rent them.</p>
           <ul>
-            <li><p class="yoga-ul-p">CSS</p></li>
-            <li><p class="yoga-ul-p">HTML</p></li>
-            <li><p class="yoga-ul-p">ES6</p></li>
-            <li><p class="yoga-ul-p">Luxon</p></li>
+            <li><p class="yoga-ul-p">Ruby</p></li>
+            <li><p class="yoga-ul-p">Rails</p></li>
+            <li><p class="yoga-ul-p">React</p></li>
+            <li><p class="yoga-ul-p">Redux</p></li>
+            <li><p class="yoga-ul-p">TailwindCSS</p></li>
           </ul>
-          <button class="see-project1" onclick="showNewSection('yoga')" id="popButton">See project</button>
+          <button class="see-project1" onclick="showNewSection('bookCar')" id="popButton" type="button">See project</button>
         </div>
       </div>
       <div class="grid3 game-sales">
@@ -80,61 +81,58 @@
           <li><p>React & Redux</p></li>
           <li><p>API</p></li>
         </ul>
-        <button class="see-project2" onclick="showNewSection('gameSales')">See project</button>
+        <button class="see-project2" onclick="showNewSection('gameSales')" type="button">See project</button>
       </div>
-      <div class="grid3" id="data-dashboard">
-          <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
-          <h3 class="h2-show-desktop">Data Dashboard Healthcare</h3>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      <div class="grid3 recipe-app">
+          <h3>Recipe app</h3>
+          <p>👨‍🍳🔪Let's get cooking! This Ruby on Rails app allows users to create recipes and browse through a collection of public recipes.</p>
           <ul>
-            <li><p>HTML</p></li>
-            <li><p>Bootstrap</p></li>
             <li><p>Ruby</p></li>
+            <li><p>Rails</p></li>
+            <li><p>PostgreSQL</p></li>
           </ul>
-        <button class="see-project2" onclick="showNewSection('dataDash')">See project</button>
+        <button class="see-project2" onclick="showNewSection('recipeApp')" type="button">See project</button>
       </div>
-      <div class="grid3" id="website-portfolio">
-        <h3  class="h2-hide-desktop">Profesional Art Printing Data</h3>
-        <h3 class="h2-show-desktop">Website Portfolio</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      <div class="grid3 awesome-books">
+        <h3>Awesome Books</h3>
+        <p>📚📖App that uses your local storage to keep a list of books that you can add or delete. Use the navbar to navigate the js generated list, use the input element or access the contact section.</p>
         <ul>
           <li><p>HTML</p></li>
-          <li><p>Bootstrap</p></li>
-          <li><p>Ruby</p></li>
+          <li><p>CSS</p></li>
+          <li><p>ES6</p></li>
+          <li><p>Luxon</p></li>
         </ul>
-        <button class="see-project2" onclick="showNewSection('webPort')">See project</button>
+        <button class="see-project2" onclick="showNewSection('yoga')" type="button">See project</button>
       </div>
-      <div class="grid3" id="profesional-art-printing-data">
-        <h3>Profesional Art Printing Data</h2>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      <div class="grid3 space-travel">
+        <h3>Space Travelers Hub</h2>
+        <p>🚀🌌To infinity and beyond! With this application you can see a list of rockets and missions pulled from the SpaceX API. Reserve yours now!</p>
+        <ul>
+          <li><p>JavaScript</p></li>
+          <li><p>React</p></li>
+          <li><p>Redux</p></li>
+        </ul>
+        <button class="see-project2" onclick="showNewSection('spaceTravel')" type="button">See project</button>
+      </div>
+      <div class="grid3 things-catalog">
+        <h3>My Things Catalog</h3>
+        <p>💽📕🎮Keep yourself organized! With this Ruby console app you can store information about your games, books and albums in a JSON format. How usefull!</p>
+        <ul>
+          <li><p>Ruby</p></li>
+          <li><p>JSON</p></li>
+          <li><p>SQL</p></li>
+        </ul>
+        <button class="see-project2" onclick="showNewSection('catalogOfThings')" type="button">See project</button>
+      </div>
+      <div class="grid3 anemoia">
+        <h3>Sound of Anemoia</h3>
+        <p>🎵🕺Gather round music fans! Sound of Anemoia is a (fictional) music event gathering the latest (and non-existent) synthwave musicians on earth! Check out the list of activities and performers. Join now!</p>
         <ul>
           <li><p>HTML</p></li>
-          <li><p>Bootstrap</p></li>
-          <li><p>Ruby</p></li>
+          <li><p>CSS3</p></li>
+          <li><p>JavaScript</p></li>
         </ul>
-        <button class="see-project2" onclick="showNewSection('artprinting')">See project</button>
-      </div>
-      <div class="grid3" id="data-dashboard">
-        <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
-        <h3 class="h2-show-desktop">Data Dashboard Healthcare</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-        <ul>
-          <li><p>HTML</p></li>
-          <li><p>Bootstrap</p></li>
-          <li><p>Ruby</p></li>
-        </ul>
-        <button class="see-project2" onclick="showNewSection('dataDash')">See project</button>
-      </div>
-      <div class="grid3" id="website-portfolio">
-        <h3 class="h2-hide-desktop">Profesional Art Printing Data</h3>
-        <h3 class="h2-show-desktop">Website Portfolio</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-        <ul>
-          <li><p>HTML</p></li>
-          <li><p>Bootstrap</p></li>
-          <li><p>Ruby</p></li>
-        </ul>
-        <button class="see-project2" onclick="showNewSection('webPort')">See project</button>
+        <button class="see-project2" onclick="showNewSection('anemoia')" type="button">See project</button>
       </div>
     </div>
   </section>
@@ -142,7 +140,7 @@
     <div class="about-me">
       <h2>About me</h2>
       <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-      <button class="get-resume">Get my resume</button>
+      <button class="get-resume" onclick="openResume()" type="button">Get my resume</button>
     </div>
     <ul class="knowledge">
       <ul>
@@ -194,11 +192,11 @@
   </section>
   <footer>
     <ul class="contact-media">
-      <li><a href="#"><img src="./Normal_Button/dark-icon-github.png" alt="github icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-linkedin.png" alt="linkedin icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-angelist.png" alt="angelist icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/Dark-icon-twitter.png" alt="twitter icon"></a></li>
-      <li><a href="#"><img src="./Normal_Button/dark-icon-medium.png" alt="medium icon"></a></li>
+      <li><a href="https://github.com/tomasesquivelgc?tab=repositories" target="_blank" rel="noopener"><img src="./Normal_Button/dark-icon-github.png" alt="github icon"></a></li>
+      <li><a href="https://www.linkedin.com/in/tomas-esquivel-dev/ " target="_blank" rel="noopener"><img src="./Normal_Button/dark-icon-linkedin.png" alt="linkedin icon"></a></li>
+      <!--<li><a href="#"><img src="./Normal_Button/dark-icon-angelist.png" alt="angelist icon"></a></li>-->
+      <!--<li><a href="#"><img src="./Normal_Button/Dark-icon-twitter.png" alt="twitter icon"></a></li>-->
+      <li><a href="https://medium.com/@tomasesquivel" target="_blank" rel="noopener"><img src="./Normal_Button/dark-icon-medium.png" alt="medium icon"></a></li>
     </ul>
   </footer>
   <script src="script.js"></script>

@@ -330,6 +330,59 @@ ul {
   background-image: url("./project_images/game_sales/game_sale_screenshot_2.png");
 }
 
+.recipe-app {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/recipe_app/recipe_app_screenshot_1.png");
+  background-position: center;
+}
+
+.recipe-app:hover {
+  background-image: url("./project_images/recipe_app/recipe_app_screenshot_3.png");
+}
+
+.awesome-books {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./Normal_Button/awesome_books_1.png");
+  background-position: center;
+}
+
+.awesome-books:hover {
+  background-image: url("./Normal_Button/awesome_books_2.png");
+}
+
+.space-travel {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/space_travel/space_hub_screenshot_1.png");
+}
+
+.space-travel:hover {
+  background-image: url("./project_images/space_travel/space_hub_screenshot_2.png");
+}
+
+.things-catalog {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/ruby_catalog/Welcome.png");
+}
+
+.things-catalog:hover {
+  background-image: url("./project_images/ruby_catalog/Properties_list.png");
+}
+
+.anemoia {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/anemoia/anemoia_screenshot_1.png");
+  background-position: center;
+}
+
+.anemoia:hover {
+  background-image: url("./project_images/anemoia/anemoia_screenshot_2.png");
+}
+
 .grid3 h3 {
   max-width: 90%;
   font-size: 2em;
@@ -526,6 +579,11 @@ button:active {
 
 footer {
   width: 100%;
+}
+
+.logo-face {
+  width: 10vh;
+  border-radius: 100%;
 }
 
 @media (min-width: 768px) {
