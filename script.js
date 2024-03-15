@@ -53,7 +53,7 @@ const projects = {
     title: 'Game Sales Hunter',
     technologies: ['Javascript', 'React', 'Redux'],
     image: './project_images/game_sales/game_sale_screenshot_3.png',
-    paragraph: 'Mobile App using CheapShark Api to find the best deals on games. The user can search for a specific game or browse through the deals list. By clickin, the user can also see the games details and a link to the official steam page',
+    paragraph: 'Mobile App using CheapShark Api to find the best deals on games. The user can search for a specific game or browse through the deals list. By clicking, the user can also see the games details and a link to the official steam page',
     link: 'https://monumental-raindrop-ef8680.netlify.app',
     codeLink: 'https://github.com/tomasesquivelgc/Games-Sales-Hunter',
   },
@@ -83,7 +83,17 @@ const projects = {
     paragraph: 'Web App that allows users to navigate a list of rockets or missions and book them. The user can also navigate to their booked items. This app was built using the SpaceX API.',
     link: 'https://deploy-preview-36--guileless-halva-645039.netlify.app',
     codeLink: 'https://github.com/tomasesquivelgc/Space-Travelers-Hub',
-  }
+  },
+
+  catalogOfThings: {
+    title: 'Catalog of Things',
+    technologies: ['Ruby', 'JSON', 'SQL'],
+    image: './project_images/ruby_catalog/Items_list.png',
+    paragraph: 'Ruby console app that allows users to create, read and delete an asort of games, books and albums. The user can also see the list of items and their details as well as a list of genres, authors and labels.',
+    link: '',
+    codeLink: 'https://github.com/tomasesquivelgc/My-Things-Catalog/tree/dev',
+  },
+
 };
 
 function showNewSection(projectId) {
