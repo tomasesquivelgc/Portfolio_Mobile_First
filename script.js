@@ -132,6 +132,7 @@ closePopUp.onclick = closeNewSection();
 const openPopUp = document.getElementById('popButton');
 openPopUp.onclick = showNewSection();
 
+// eslint-disable-next-line no-unused-vars
 function openResume() {
   window.open('https://docs.google.com/document/d/e/2PACX-1vRgXEd3utL9Uql57taDOidPbsYLvzCnwtv_B22REQOEhlTgC6zVEXrgss-M-YwjkjGsK22qdDXvzRmh/pub', '_blank');
 }

@@ -331,11 +331,10 @@ ul {
 }
 
 .recipe-app {
-  background-image: 
-  linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
-  url("./project_images/recipe_app/recipe_app_screenshot_1.png");
+  background-image:
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/recipe_app/recipe_app_screenshot_1.png");
   background-position: center;
-
 }
 
 .recipe-app:hover {
@@ -344,8 +343,8 @@ ul {
 
 .awesome-books {
   background-image:
-  linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
-  url("./Normal_Button/awesome_books_1.png");
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./Normal_Button/awesome_books_1.png");
   background-position: center;
 }
 
@@ -355,8 +354,8 @@ ul {
 
 .space-travel {
   background-image:
-  linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
-  url("./project_images/space_travel/space_hub_screenshot_1.png");
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/space_travel/space_hub_screenshot_1.png");
 }
 
 .space-travel:hover {
@@ -365,8 +364,8 @@ ul {
 
 .things-catalog {
   background-image:
-  linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
-  url("./project_images/ruby_catalog/Welcome.png");
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/ruby_catalog/Welcome.png");
 }
 
 .things-catalog:hover {
@@ -375,8 +374,8 @@ ul {
 
 .anemoia {
   background-image:
-  linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
-  url("./project_images/anemoia/anemoia_screenshot_1.png");
+    linear-gradient(to bottom, rgba(245, 0, 0, 0), rgba(57, 57, 57, 1)),
+    url("./project_images/anemoia/anemoia_screenshot_1.png");
   background-position: center;
 }
 
